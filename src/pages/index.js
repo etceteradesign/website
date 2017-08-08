@@ -36,7 +36,6 @@ class IndexPage extends React.Component{
 }
 
 var styles = {
-  color: '#ff0000'
 }
 
 export default IndexPage

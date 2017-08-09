@@ -7,6 +7,7 @@ import './index.css';
 import './custom.css';
 
 import HeaderShelf from '../components/headerShelf';
+import ServicesShelf from '../components/servicesShelf';
 
 const TemplateWrapper = ({ children }) =>
   <div>
@@ -18,7 +19,7 @@ const TemplateWrapper = ({ children }) =>
       ]}
     />
     <HeaderShelf />
-    <section className="diagonal" style={{height: '100vh', background: '#eee'}}></section>
+    <ServicesShelf />
     <div>
       {children()}
     </div>

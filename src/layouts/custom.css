@@ -24,3 +24,51 @@ section:before {
     height: 75%;
     background: inherit;
 }
+
+@font-face {
+  font-family: 'Apercu-Mono';
+  src: url('/fonts/ApercuMono/Apercu-Mono.eot');
+  src: url('/fonts/ApercuMono/Apercu-Mono.woff2') format('woff2'),
+       url('/fonts/ApercuMono/Apercu-Mono.woff') format('woff'),
+       url('/fonts/ApercuMono/Apercu-Mono.ttf') format('truetype'),
+       url('/fonts/ApercuMono/Apercu-Mono.svg#Apercu-Mono') format('svg'),
+       url('/fonts/ApercuMono/Apercu-Mono.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu-Regular';
+  src: url('/fonts/ApercuRegular/Apercu-Regular.eot');
+  src: url('/fonts/ApercuRegular/Apercu-Regular.woff2') format('woff2'),
+       url('/fonts/ApercuRegular/Apercu-Regular.woff') format('woff'),
+       url('/fonts/ApercuRegular/Apercu-Regular.ttf') format('truetype'),
+       url('/fonts/ApercuRegular/Apercu-Regular.svg#Apercu-Regular') format('svg'),
+       url('/fonts/ApercuRegular/Apercu-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu-Medium';
+  src: url('/fonts/ApercuMedium/Apercu-Medium.eot');
+  src: url('/fonts/ApercuMedium/Apercu-Medium.woff2') format('woff2'),
+       url('/fonts/ApercuMedium/Apercu-Medium.woff') format('woff'),
+       url('/fonts/ApercuMedium/Apercu-Medium.ttf') format('truetype'),
+       url('/fonts/ApercuMedium/Apercu-Medium.svg#Apercu-Medium') format('svg'),
+       url('/fonts/ApercuMedium/Apercu-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu-Bold';
+  src: url('/fonts/ApercuBold/Apercu-Bold.eot');
+  src: url('/fonts/ApercuBold/Apercu-Bold.woff2') format('woff2'),
+       url('/fonts/ApercuBold/Apercu-Bold.woff') format('woff'),
+       url('/fonts/ApercuBold/Apercu-Bold.ttf') format('truetype'),
+       url('/fonts/ApercuBold/Apercu-Bold.svg#Apercu-Bold') format('svg'),
+       url('/fonts/ApercuBold/Apercu-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -13,16 +13,24 @@ section:before {
     padding: 3em;
 }
 .diagonal:before {
-    -webkit-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    -webkit-transform-origin: 3% 0;
-    transform-origin: 3% 0;
     top: 0;
     left: -25%;
     z-index: -1;
     width: 150%;
     height: 75%;
     background: inherit;
+}
+.diagonal.anticlockwise:before{
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 3% 0;
+    transform-origin: 3% 0;
+}
+.diagonal.clockwise:before{
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    -webkit-transform-origin: 97% 0;
+    transform-origin: 97% 0;
 }
 
 @font-face {

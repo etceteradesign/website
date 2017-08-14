@@ -7,6 +7,7 @@ import Reveal from 'react-reveal';
 
 import HeaderShelf from '../components/headerShelf';
 import ServicesShelf from '../components/servicesShelf';
+import WorkShelf from '../components/workShelf';
 
 class IndexPage extends React.Component{
 
@@ -14,6 +15,7 @@ class IndexPage extends React.Component{
     return (<div>
       <HeaderShelf />
       <ServicesShelf />
+      <WorkShelf />
     </div>)
   }
 

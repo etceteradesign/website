@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 
 import ServiceIcon from './serviceIcon';
 
+import sharedStyles from '../shared/sharedStyles';
+
 import app from '../assets/services-icons/app-icon.png';
 import dev from '../assets/services-icons/dev-icon.png';
 import logo from '../assets/services-icons/logo-icon.png';
@@ -11,8 +13,8 @@ import print from '../assets/services-icons/print-icon.png';
 import web from '../assets/services-icons/web-icon.png';
 
 const ServicesShelf = () => 
-  <section className="diagonal" style={styles.section}>
-    <h2 style={styles.h2}>My Services?</h2>
+  <section className="diagonal anticlockwise" style={styles.section}>
+    <h2 style={sharedStyles.sectionHeading}>My Services?</h2>
     <div className="container">
       <div className="row">
         <div className="col-sm-4"><ServiceIcon iconURL={web} description="Web design" /></div>
@@ -31,16 +33,8 @@ const ServicesShelf = () =>
 var styles = {};
 
 styles.section = {
-  background: '#eff0f1'
-}
-
-styles.h2 = {
-  fontFamily: 'Apercu-Bold',
-  textTransform: 'uppercase',
-  color: '#3a86ff',
-  fontSize: '3vw',
-  letterSpacing: '1.7',
-  textAlign: 'center'
+  background: '#eff0f1',
+  paddingBottom: "100px"
 }
 
 export default ServicesShelf

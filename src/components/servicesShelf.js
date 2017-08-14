@@ -17,14 +17,15 @@ const ServicesShelf = () =>
     <h2 style={sharedStyles.sectionHeading}>My Services?</h2>
     <div className="container">
       <div className="row">
-        <div className="col-sm-4"><ServiceIcon iconURL={web} description="Web design" /></div>
-        <div className="col-sm-4"><ServiceIcon iconURL={print} description="Print & Brochure design" /></div>
-        <div className="col-sm-4"><ServiceIcon iconURL={logo} description="Logos & branding" /></div>
-      </div>
-      <div className="row">
-        <div className="col-sm-4"><ServiceIcon iconURL={app} description="App design" /></div>
-        <div className="col-sm-4"><ServiceIcon iconURL={presentation} description="Presentation design" /></div>
-        <div className="col-sm-4"><ServiceIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={web} description="Web design" /></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={print} description="Print & Brochure design" /></div>
+        <div className="clearfix visible-xs-block"></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={logo} description="Logos & branding" /></div>
+        <div className="clearfix visible-sm-block visible-md-block"></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={app} description="App design" /></div>
+        <div className="clearfix visible-xs-block"></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={presentation} description="Presentation design" /></div>
+        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
       </div>
     </div>
 

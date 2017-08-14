@@ -10,7 +10,7 @@ section:before {
 }
 .diagonal {
     z-index: 1;
-    padding: 3em;
+    padding: 3em 0;
 }
 .diagonal:before {
     top: 0;
@@ -31,6 +31,16 @@ section:before {
     transform: rotate(3deg);
     -webkit-transform-origin: 97% 0;
     transform-origin: 97% 0;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 @font-face {

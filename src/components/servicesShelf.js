@@ -31,7 +31,7 @@ const ServicesShelf = () =>
 var styles = {};
 
 styles.section = {
-  background: '#eee'
+  background: '#eff0f1'
 }
 
 styles.h2 = {

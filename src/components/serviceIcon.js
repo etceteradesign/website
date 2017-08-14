@@ -52,7 +52,7 @@ styles.icon = {
 
 styles.circle = {
   position: "relative",
-  background: "white",
+  background: "#f5f6f7",
   borderRadius: "50%",
   marginBottom: "10%"
 }

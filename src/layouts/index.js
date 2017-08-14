@@ -6,8 +6,8 @@ import Helmet from 'react-helmet';
 import './index.css';
 import './custom.css';
 
-import HeaderShelf from '../components/headerShelf';
-import ServicesShelf from '../components/servicesShelf';
+import 'animate.css/animate.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const TemplateWrapper = ({ children }) =>
   <div>
@@ -18,8 +18,6 @@ const TemplateWrapper = ({ children }) =>
         { name: 'keywords', content: 'freelance, design, stephanie, slater, etcetera, manchester, web, print, logo, app' },
       ]}
     />
-    <HeaderShelf />
-    <ServicesShelf />
     <div>
       {children()}
     </div>

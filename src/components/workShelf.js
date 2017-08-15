@@ -3,7 +3,15 @@ import Link from 'gatsby-link';
 
 import sharedStyles from '../shared/sharedStyles';
 
+import ProjectScreenshot from './projectScreenshot';
+
 import reebok1 from '../assets/work/reebok1.jpg';
+import buffalo1 from '../assets/work/buffalo7-1.png';
+import tigersdrawer1 from '../assets/work/tigersdrawer1.jpg';
+import openmarket1 from '../assets/work/openmarket1.jpg';
+import drcacao1 from '../assets/work/drcacao1.jpg';
+import festivalofyou1 from '../assets/work/festivalofyou1.jpg';
+import mercury1 from '../assets/work/mercury1.jpg';
 
 const WorkShelf = () =>
   <section className="diagonal clockwise" style={styles.section}>
@@ -22,6 +30,20 @@ const WorkShelf = () =>
           <p style={styles.p}>A presentation designed for a presentation on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century.</p>
           <p style={styles.p}>Click the link for more images of the project.</p>
         </div>
+      </div>
+    </div>
+
+    <div className="container-fluid" style={styles.projectsContainer}>
+      <div className="row">
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></div>
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={tigersdrawer1} description="Menu Design: Federal Caf&eacute;" /></div>
+        <div className="clearfix visible-xs-block"></div>
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></div>
+        <div className="clearfix visible-sm-block visible-md-block"></div>
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={drcacao1} description="Dr Cacao" /></div>
+        <div className="clearfix visible-xs-block"></div>
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival of You" /></div>
+        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></div>
       </div>
     </div>
   </section>
@@ -83,6 +105,10 @@ styles.p = {
   fontSize: "20px",
   color: "#b2b1b8",
   lineHeight: "1.7"
+}
+
+styles.projectsContainer = {
+
 }
 
 export default WorkShelf;

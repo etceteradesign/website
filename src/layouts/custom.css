@@ -43,6 +43,38 @@ section:before {
   padding-left: 0;
 }
 
+.specialHeading {
+  font-family: "RobotoMono-Regular";
+  margin-bottom: 9%;
+  position: relative;
+  display: inline-block;
+}
+
+.specialHeading:before{
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 92%;
+  top: 10px;
+  left: 0;
+  background: #fdc523;
+  z-index: -1;
+}
+
+a.specialHeading{
+  text-decoration: none;
+  color: black;
+}
+
+a.specialHeading:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a.specialHeading:hover:before{
+  background: #3a86ff;
+}
+
 @font-face {
   font-family: 'Apercu-Mono';
   src: url('/fonts/ApercuMono/Apercu-Mono.eot');

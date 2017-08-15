@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Radium from 'radium';
 
 import sharedStyles from '../shared/sharedStyles';
 
@@ -26,7 +27,7 @@ const WorkShelf = () =>
           </div>
         </div>
         <div className="col-sm-6" style={styles.rightHalf}>
-          <h4 style={styles.h4}><span style={styles.h4Before}></span>FEATURED: Reebok Showcase</h4>
+          <h4 className="specialHeading">FEATURED: Reebok Showcase</h4>
           <p style={styles.p}>A presentation designed for a presentation on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century.</p>
           <p style={styles.p}>Click the link for more images of the project.</p>
         </div>
@@ -46,6 +47,10 @@ const WorkShelf = () =>
         <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></div>
       </div>
     </div>
+
+    <div style={styles.projectsLink}><Link className="specialHeading" to="/projects/">See all projects</Link></div>
+
+
   </section>
 
 var styles = {};
@@ -83,21 +88,9 @@ styles.rightHalf = {
   padding: "3% 6%"
 }
 
-styles.h4 = {
-  fontFamily: "RobotoMono-Regular",
-  marginBottom: "9%",
-  position: "relative",
-  display: "inline-block"
-}
-
-styles.h4Before = {
-  position: "absolute",
-  width: "110%",
-  height: "92%",
-  top: "10px",
-  left: 0,
-  background: "#fdc523",
-  zIndex: -1
+styles.projectsLink = {
+  textAlign: "center",
+  marginTop: "3%"
 }
 
 styles.p = {
@@ -111,5 +104,5 @@ styles.projectsContainer = {
 
 }
 
-export default WorkShelf;
+export default Radium(WorkShelf);
 

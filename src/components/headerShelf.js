@@ -8,9 +8,15 @@ console.log(bg);
 
 const HeaderShelf = () =>
   <section style={styles.section}>
-    <img src={logo} style={styles.logo} />
-    <hr style={styles.hr} />
-    <h1 style={styles.h1}>Freelance design work<br />by Stephanie Slater</h1>
+    <div style={{ display: "table", width: "100%", height: "100%" }}>
+      <div style={{ display: "table-cell", verticalAlign: "middle" }}>
+        <div>
+          <img src={logo} style={styles.logo} />
+          <hr style={styles.hr} />
+          <h1 style={styles.h1}>Freelance design work<br />by Stephanie Slater</h1>
+        </div>
+      </div>
+    </div>
   </section>
 
 var styles = {};
@@ -21,21 +27,20 @@ styles.section = {
   'WebkitBackgroundSize': 'cover',
   'MozBackgroundSize': 'cover',
   'OBackgroundSize': 'cover',
-  'BackgroundSize': 'cover',
-  paddingTop: '20vh'
+  'BackgroundSize': 'cover'
 }
 
 styles.h1 = {
   color: 'white',
   textAlign: 'center',
   fontFamily: 'Apercu-Regular',
-  fontSize: '3vw',
+  fontSize: '4.5vh',
   letterSpacing: '0.07em'
 }
 
 styles.logo = {
   display: 'block',
-  width: '12vw',
+  width: '24vh',
   height: 'auto',
   margin: '0 auto'
 }

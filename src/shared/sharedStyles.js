@@ -4,7 +4,7 @@ sharedStyles.sectionHeading = {
   fontFamily: 'Apercu-Bold',
   textTransform: 'uppercase',
   color: '#3a86ff',
-  fontSize: '3vw',
+  fontSize: '4.5vh',
   letterSpacing: '0.06em',
   textAlign: 'center'
 }

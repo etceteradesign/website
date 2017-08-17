@@ -9,6 +9,7 @@ import HeaderShelf from '../components/headerShelf';
 import ServicesShelf from '../components/servicesShelf';
 import WorkShelf from '../components/workShelf';
 import ContactShelf from '../components/contactShelf';
+import FooterShelf from '../components/footerShelf';
 
 class IndexPage extends React.Component{
 
@@ -18,6 +19,7 @@ class IndexPage extends React.Component{
       <ServicesShelf />
       <WorkShelf />
       <ContactShelf />
+      <FooterShelf />
     </div>)
   }
 

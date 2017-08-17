@@ -21,7 +21,7 @@ const WorkShelf = () =>
     <div className="container-fluid" style={styles.container}>
       <div className="row no-gutters">
         <div className="col-sm-6">
-          <div styles={styles.shadowImage}>
+          <div style={styles.shadowImage}>
             <span style={styles.imageBefore}></span>
             <img src={reebok1} style={styles.featuredImage} />
           </div>

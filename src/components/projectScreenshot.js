@@ -4,11 +4,9 @@ import Radium from 'radium';
 
 class ProjectScreenshot extends React.Component{
 
-  getDefaultProps(){
-    return {
-      screenshotURL: "",
-      description: "Component not set up"
-    }
+  static defaultProps = {
+    screenshotURL: "",
+    description: "Component not set up"
   }
 
   render(){

@@ -45,7 +45,7 @@ section:before {
   position: absolute;
   width: 110%;
   height: 92%;
-  top: 10px;
+  top: 50%;
   left: 0;
   background: #fdc523;
   z-index: -1;

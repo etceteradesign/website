@@ -90,7 +90,8 @@ styles.rightHalf = {
 
 styles.projectsLink = {
   textAlign: "center",
-  marginTop: "3%"
+  marginTop: "3%",
+  fontSize: "3vh"
 }
 
 styles.p = {

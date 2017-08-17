@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import './index.css';
-import './custom.css';
-
 import 'animate.css/animate.css';
 import 'bootstrap/dist/css/bootstrap.css';
+
+import './index.css';
+import './custom.css';
 
 const TemplateWrapper = ({ children }) =>
   <div>

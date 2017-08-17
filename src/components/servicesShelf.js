@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import ServiceIcon from './serviceIcon';
+import CircleIcon from './circleIcon';
 
 import sharedStyles from '../shared/sharedStyles';
 
@@ -12,20 +12,22 @@ import presentation from '../assets/services-icons/presentation-icon.png';
 import print from '../assets/services-icons/print-icon.png';
 import web from '../assets/services-icons/web-icon.png';
 
+const circleColour = "#f5f6f7";
+
 const ServicesShelf = () => 
   <section className="diagonal anticlockwise" style={styles.section}>
     <h2 style={sharedStyles.sectionHeading}>My Services?</h2>
     <div className="container">
       <div className="row">
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={web} description="Web design" /></div>
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={print} description="Print & Brochure design" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={web} description="Web design" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={print} description="Print & Brochure design" /></div>
         <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={logo} description="Logos & branding" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={logo} description="Logos & branding" /></div>
         <div className="clearfix visible-sm-block visible-md-block"></div>
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={app} description="App design" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={app} description="App design" /></div>
         <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={presentation} description="Presentation design" /></div>
-        <div className="col-xs-6 col-sm-4"><ServiceIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={presentation} description="Presentation design" /></div>
+        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
       </div>
     </div>
 

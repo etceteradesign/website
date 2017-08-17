@@ -8,6 +8,7 @@ import Reveal from 'react-reveal';
 import HeaderShelf from '../components/headerShelf';
 import ServicesShelf from '../components/servicesShelf';
 import WorkShelf from '../components/workShelf';
+import ContactShelf from '../components/contactShelf';
 
 class IndexPage extends React.Component{
 
@@ -16,6 +17,7 @@ class IndexPage extends React.Component{
       <HeaderShelf />
       <ServicesShelf />
       <WorkShelf />
+      <ContactShelf />
     </div>)
   }
 

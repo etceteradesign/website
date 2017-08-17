@@ -36,15 +36,15 @@ const WorkShelf = () =>
 
     <div className="container-fluid" style={styles.projectsContainer}>
       <div className="row">
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></div>
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={tigersdrawer1} description="Menu Design: Federal Caf&eacute;" /></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={tigersdrawer1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
         <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
         <div className="clearfix visible-sm-block visible-md-block"></div>
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={drcacao1} description="Dr Cacao" /></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={drcacao1} description="Dr Cacao" /></Link></div>
         <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival of You" /></div>
-        <div className="col-xs-6 col-sm-4"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival of You" /></Link></div>
+        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
       </div>
     </div>
 

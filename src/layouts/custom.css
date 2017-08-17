@@ -153,6 +153,18 @@ a.specialHeading:hover:before{
 }
 
 @font-face {
+  font-family: 'Apercu-Light';
+  src: url('/fonts/ApercuLight/Apercu-Light.eot');
+  src: url('/fonts/ApercuLight/Apercu-Light.woff2') format('woff2'),
+       url('/fonts/ApercuLight/Apercu-Light.woff') format('woff'),
+       url('/fonts/ApercuLight/Apercu-Light.ttf') format('truetype'),
+       url('/fonts/ApercuLight/Apercu-Light.svg#Apercu-Regular') format('svg'),
+       url('/fonts/ApercuLight/Apercu-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Apercu-Regular';
   src: url('/fonts/ApercuRegular/Apercu-Regular.eot');
   src: url('/fonts/ApercuRegular/Apercu-Regular.woff2') format('woff2'),

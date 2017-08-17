@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import sharedStyles from '../shared/sharedStyles';
+import colours from '../shared/colours';
 
 import CircleIcon from './circleIcon';
 
@@ -27,7 +28,7 @@ const ContactShelf = () =>
 var styles = {};
 
 styles.section = {
-  background: '#3a86ff',
+  background: colours.blue,
   paddingBottom: "100px"
 }
 

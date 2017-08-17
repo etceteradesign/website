@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import CircleIcon from './circleIcon';
 
 import sharedStyles from '../shared/sharedStyles';
+import colours from '../shared/colours';
 
 import app from '../assets/services-icons/app-icon.png';
 import dev from '../assets/services-icons/dev-icon.png';
@@ -36,7 +37,7 @@ const ServicesShelf = () =>
 var styles = {};
 
 styles.section = {
-  background: '#eff0f1',
+  background: colours.backgroundGrey,
   paddingBottom: "100px"
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import sharedStyles from '../shared/sharedStyles';
+import colours from '../shared/colours';
 
 import twitter from '../assets/footer-icons/twitter-icon.png';
 import instagram from '../assets/footer-icons/instagram-icon.png';
@@ -29,7 +30,7 @@ styles.section = {
 }
 
 styles.footer = {
-  background: "#f1f1f1",
+  background: colours.backgroundGrey,
   padding: "30px 0 5px"
 }
 

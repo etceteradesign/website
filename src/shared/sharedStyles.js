@@ -1,9 +1,11 @@
+import colours from './colours';
+
 var sharedStyles = {};
 
 sharedStyles.sectionHeading = {
   fontFamily: 'Apercu-Bold',
   textTransform: 'uppercase',
-  color: '#3a86ff',
+  color: colours.blue,
   fontSize: '4.5vh',
   letterSpacing: '0.06em',
   textAlign: 'center'

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Radium from 'radium';
 
 class CircleIcon extends React.Component{
 
@@ -39,9 +40,12 @@ var styles = {};
 
 styles.description = {
   fontWeight: "bold",
-  fontFamily: "Apercu-Regular",
+  fontFamily: "Apercu-Light",
   textAlign: "center",
-  fontSize: "18px"
+  fontSize: "20px",
+  "@media only screen and (max-width : 480px)": {
+    fontSize: "15px"
+  }
 }
 
 styles.container = {
@@ -73,4 +77,4 @@ styles.after = {
   paddingBottom: "100%"
 }
 
-export default CircleIcon;
+export default Radium(CircleIcon);

@@ -48,7 +48,7 @@ styles.cover = {
   height: "100%",
   background: "#fdc523",
   opacity: 0,
-  webkitTransition: "0.2s",
+  WebkitTransition: "0.2s",
   transition: "0.2s",
   ":hover": {
     opacity: 0.85,

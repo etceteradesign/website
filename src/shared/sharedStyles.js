@@ -5,7 +5,7 @@ sharedStyles.sectionHeading = {
   textTransform: 'uppercase',
   color: '#3a86ff',
   fontSize: '3vw',
-  letterSpacing: '1.7',
+  letterSpacing: '0.06em',
   textAlign: 'center'
 }
 

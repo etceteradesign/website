@@ -35,7 +35,7 @@ styles.h1 = {
   textAlign: 'center',
   fontFamily: 'Apercu-Regular',
   fontSize: '4.5vh',
-  letterSpacing: '0.07em'
+  letterSpacing: '0.05em'
 }
 
 styles.logo = {

@@ -4,8 +4,6 @@ import Link from 'gatsby-link';
 import bg from '../assets/header-bg-2500.jpg';
 import logo from '../assets/logo.png';
 
-console.log(bg);
-
 const HeaderShelf = () =>
   <section style={styles.section}>
     <div style={{ display: "table", width: "100%", height: "100%" }}>

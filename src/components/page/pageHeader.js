@@ -12,7 +12,7 @@ class PageHeader extends React.Component{
   render(){
 
     return (<section style={Object.assign({},styles.section, { background: 'url(' + this.props.bg + ') no-repeat center center', })}>
-      <img src={logo} style={styles.logo} />
+      <Link to="/"><img src={logo} style={styles.logo} /></Link>
     </section>);
 
   }

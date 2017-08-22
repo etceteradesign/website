@@ -1,0 +1,2 @@
+webpackJsonp([0x9d6c7429d8587800],{"./node_modules/json-loader/index.js!./.cache/json/buffalo-7-infographic.json":function(o,n){o.exports={pathContext:{}}}});
+//# sourceMappingURL=path---buffalo-7-infographic-586c7e095e534a3909ec.js.map

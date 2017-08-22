@@ -8,6 +8,7 @@ body {
 
 html{
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {

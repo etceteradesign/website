@@ -24,7 +24,6 @@ class ProjectDescription extends React.Component{
 var styles = {};
 
 styles.section = {
-  height: '100vh',
   background: 'white'
 }
 

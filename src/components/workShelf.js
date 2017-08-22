@@ -23,7 +23,7 @@ const WorkShelf = () =>
         <div className="col-sm-6">
           <div style={styles.shadowImage}>
             <span style={styles.imageBefore}></span>
-            <img src={reebok1} style={styles.featuredImage} />
+            <Link to="/reebok-project"><img src={reebok1} style={styles.featuredImage} /></Link>
           </div>
         </div>
         <div className="col-sm-6" style={styles.rightHalf}>

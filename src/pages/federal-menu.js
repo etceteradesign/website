@@ -18,7 +18,7 @@ class FederalMenuProject extends React.Component{
         description="The design of a cocktail menu for a café in Manchester’s Nothern Quarter. The end product included bold type and an illustrated approach, with a range of artwork being commissioned to represent the drinks on offer."
         images={[federal1, federal1, federal2]}
         prevPageName='/buffalo7-infographic'
-        nextPageName='#' />
+        nextPageName='/open-market-presentation' />
     </div>)
   }
 

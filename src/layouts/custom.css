@@ -87,6 +87,10 @@ a.specialHeading:hover:before{
   padding-left: 0;
 }
 
+.img-responsive{
+  width: 100%;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/

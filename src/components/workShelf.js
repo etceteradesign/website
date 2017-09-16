@@ -39,7 +39,7 @@ const WorkShelf = () =>
         <div className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
         <div className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
         <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+        <div className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
         <div className="clearfix visible-sm-block visible-md-block"></div>
         <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={drcacao1} description="Dr Cacao" /></Link></div>
         <div className="clearfix visible-xs-block"></div>

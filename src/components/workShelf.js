@@ -10,7 +10,7 @@ import reebok1 from '../assets/work/reebok1.jpg';
 import buffalo1 from '../assets/work/buffalo7-1.png';
 import federal1 from '../assets/work/tigersdrawer1.jpg';
 import openmarket1 from '../assets/work/openmarket1.jpg';
-import drcacao1 from '../assets/work/drcacao1.jpg';
+import jamie1 from '../assets/work/jamie1.jpg';
 import festivalofyou1 from '../assets/work/festivalofyou1.jpg';
 import mercury1 from '../assets/work/mercury1.jpg';
 
@@ -41,7 +41,7 @@ const WorkShelf = () =>
         <div className="clearfix visible-xs-block"></div>
         <div className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
         <div className="clearfix visible-sm-block visible-md-block"></div>
-        <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={drcacao1} description="Dr Cacao" /></Link></div>
+        <div className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
         <div className="clearfix visible-xs-block"></div>
         <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival of You" /></Link></div>
         <div className="col-xs-6 col-sm-4"><Link to="#"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>

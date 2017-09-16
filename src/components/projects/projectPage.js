@@ -7,7 +7,7 @@ import ProjectImages from '../projects/projectImages';
 import ProjectNav from '../projects/projectNav';
 import FooterShelf from '../footerShelf';
 
-class ReebokProject extends React.Component{
+class ProjectPage extends React.Component{
 
   static defaultProps = {
     bg: "",
@@ -32,4 +32,4 @@ class ReebokProject extends React.Component{
 
 
 
-export default ReebokProject;
+export default ProjectPage;

@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Radium from 'radium';
 
 import bg from '../assets/header-bg-2500.jpg';
 import logo from '../assets/logo.png';
 
 const HeaderShelf = () =>
-  <section style={styles.section}>
+  <section className="cover" style={styles.section}>
     <div style={{ display: "table", width: "100%", height: "100%" }}>
       <div style={{ display: "table-cell", verticalAlign: "middle" }}>
         <div>
@@ -21,7 +22,9 @@ var styles = {};
 
 styles.section = {
   height: '100vh',
-  background: 'linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),url(' + bg + ') no-repeat center center',
+  backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),url(' + bg + ')',
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center center',
   'WebkitBackgroundSize': 'cover',
   'MozBackgroundSize': 'cover',
   'OBackgroundSize': 'cover',
@@ -52,4 +55,4 @@ styles.hr = {
   marginBottom: '4vh'
 }
 
-export default HeaderShelf;
+export default Radium(HeaderShelf);

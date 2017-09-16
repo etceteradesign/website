@@ -20,7 +20,7 @@ class OpenMarketPresentation extends React.Component{
         description="A powerpoint template designed while working at Buffalo 7. Using OpenMarket’s brand guidelines, the result was a diverse and functional template, including data visualisation, custom graphics & illustration and animation techniques. "
         images={[openmarket1, openmarket2, openmarket3, openmarket4]}
         prevPageName='/federal-menu'
-        nextPageName='#' />
+        nextPageName='/jamie-veg-patch' />
     </div>)
   }
 

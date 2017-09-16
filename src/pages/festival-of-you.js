@@ -20,7 +20,7 @@ class FestivalOfYou extends React.Component{
         description="Urban Outfitters have been continually criticised for their negative influence on the self esteem and confidence in young people, especially young girls. 'Festival of You' is a concept designed to alter the brands damaged reputation. The event offers customers a 2 day celebration of themselves and a chance to improve their confidence through a series of inspirational talks and workshops."
         images={[festivalofyou1, festivalofyou2, festivalofyou3, festivalofyou4]}
         prevPageName='/jamie-veg-patch'
-        nextPageName='#' />
+        nextPageName='/mercury' />
     </div>)
   }
 

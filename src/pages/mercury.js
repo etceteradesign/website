@@ -18,7 +18,7 @@ class Mercury extends React.Component{
         heading="Mercury Brochure"
         description="An annual report for Mercury Logistics. The approach to the text heavy document was founded on key words from the report itself; 'honest', 'open' and 'connected'. The curved graphic elements used in this context reflect these core values, while also adding movement and fluidity to the pages."
         images={[mercury1, mercury2, mercury3]}
-        prevPageName='/jamie-veg-patch'
+        prevPageName='/festival-of-you'
         nextPageName='#' />
     </div>)
   }

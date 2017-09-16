@@ -43,6 +43,12 @@ section:before {
     transform-origin: 97% 0;
 }
 
+section.cover{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 .specialHeading {
   font-family: "RobotoMono-Regular";
   margin-bottom: 9%;

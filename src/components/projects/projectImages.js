@@ -17,14 +17,14 @@ class ProjectImages extends React.Component{
         break
       case 1:
         imagesGrid =
-          <div className="container">
+          <div style={styles.container} className="container">
             <img src={images[0]} className="img-responsive" />
           </div>
         break;
 
       case 2:
         imagesGrid =
-          <div className="container">
+          <div style={styles.container} className="container">
             <div className="row">
               <div className="col-xs-6"><img src={images[0]} className="img-responsive" /></div>
               <div className="col-xs-6"><img src={images[1]} className="img-responsive" /></div>
@@ -34,7 +34,7 @@ class ProjectImages extends React.Component{
 
       case 3:
         imagesGrid = 
-          <div className="container">
+          <div style={styles.container} className="container">
             <div className="row">
               <div className="col-xs-6"><img src={images[0]} className="img-responsive" /></div>
               <div className="col-xs-6"><img src={images[1]} className="img-responsive" /></div>
@@ -47,7 +47,7 @@ class ProjectImages extends React.Component{
 
       case 4:
         imagesGrid =
-          <div className="container">
+          <div style={styles.container} className="container">
             <div className="row">
               <div className="col-xs-12"><img src={images[0]} className="img-responsive" /></div>
             </div>
@@ -65,6 +65,10 @@ class ProjectImages extends React.Component{
     return imagesGrid;
   }
 
+}
+
+var styles = {};
+styles.container = {
 }
 
 export default ProjectImages;

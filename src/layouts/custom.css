@@ -97,6 +97,10 @@ a.specialHeading:hover:before{
   width: 100%;
 }
 
+.container{
+  max-width: 750px;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/

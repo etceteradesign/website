@@ -61,7 +61,8 @@ styles.section = {
 
 styles.container = {
   marginTop: "5%",
-  padding: 0
+  padding: 0,
+  marginBottom: "7%"
 }
 
 styles.featureImage = {

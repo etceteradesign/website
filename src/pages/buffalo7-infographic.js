@@ -7,7 +7,7 @@ import bg from '../assets/projects/buffalo7/buffalo7-header-bg.jpg';
 
 import infographic from '../assets/projects/buffalo7/buffalo7-1.jpg';
 
-class ReebokProject extends React.Component{
+class BuffaloProject extends React.Component{
 
   render(){
     return (<div>
@@ -17,7 +17,7 @@ class ReebokProject extends React.Component{
         description="An infographic designed for Buffalo 7, as featured on their website and twitter page."
         images={[infographic]}
         prevPageName='/reebok-project'
-        nextPageName='#' />
+        nextPageName='/federal-menu' />
     </div>)
   }
 
@@ -25,4 +25,4 @@ class ReebokProject extends React.Component{
 
 
 
-export default ReebokProject;
+export default BuffaloProject;

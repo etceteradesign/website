@@ -19,6 +19,7 @@ const TemplateWrapper = ({ children }) =>
         meta={[
           { name: 'description', content: 'Freelance design by Stephanie Slater' },
           { name: 'keywords', content: 'freelance, design, stephanie, slater, etcetera, manchester, web, print, logo, app' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' }
         ]}
       />
       <div>

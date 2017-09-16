@@ -36,11 +36,11 @@ class ProjectImages extends React.Component{
         imagesGrid = 
           <div className="container">
             <div className="row">
-              <div className="col-xs-12"><img src={images[0]} className="img-responsive" /></div>
+              <div className="col-xs-6"><img src={images[0]} className="img-responsive" /></div>
+              <div className="col-xs-6"><img src={images[1]} className="img-responsive" /></div>
             </div>
             <div className="row">
-              <div className="col-xs-6"><img src={images[1]} className="img-responsive" /></div>
-              <div className="col-xs-6"><img src={images[2]} className="img-responsive" /></div>
+              <div className="col-xs-12"><img src={images[2]} className="img-responsive" /></div>
             </div>
           </div>
         break;

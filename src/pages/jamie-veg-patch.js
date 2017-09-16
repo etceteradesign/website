@@ -19,7 +19,7 @@ class JamieVegPatch extends React.Component{
         description="A handmade approach to the design of an imaginary new Jamie Oliver cookbook. The concept intended to encapsulate the authentic and homely nature of the chefs cooking, using real vegetables and acrylic paints to produce a unique print for the cook book and range."
         images={[jamie1, jamie2, jamie3]}
         prevPageName='/open-market-presentation'
-        nextPageName='#' />
+        nextPageName='/festival-of-you' />
     </div>)
   }
 

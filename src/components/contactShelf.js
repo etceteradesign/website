@@ -29,7 +29,7 @@ var styles = {};
 
 styles.section = {
   background: colours.blue,
-  paddingBottom: "100px"
+  paddingBottom: "10%"
 }
 
 export default ContactShelf;

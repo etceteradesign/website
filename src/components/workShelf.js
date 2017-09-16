@@ -60,7 +60,7 @@ styles.section = {
 }
 
 styles.container = {
-  marginTop: "5%",
+  marginTop: "7%",
   padding: 0,
   marginBottom: "7%"
 }

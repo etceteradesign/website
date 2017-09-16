@@ -16,8 +16,8 @@ class IndexPage extends React.Component{
   render(){
     return (<div>
       <HeaderShelf />
-      <ServicesShelf />
       <WorkShelf />
+      <ServicesShelf />
       <ContactShelf />
       <FooterShelf />
     </div>)

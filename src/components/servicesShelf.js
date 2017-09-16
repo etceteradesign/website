@@ -38,7 +38,7 @@ var styles = {};
 
 styles.section = {
   background: colours.backgroundGrey,
-  paddingBottom: "100px"
+  paddingBottom: "10%"
 }
 
 export default ServicesShelf

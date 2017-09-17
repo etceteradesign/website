@@ -6,17 +6,18 @@ import bg from '../assets/header-bg-2500.jpg';
 import logo from '../assets/logo.png';
 
 const HeaderShelf = () =>
-  <section className="cover" style={styles.section}>
-    <div style={{ display: "table", width: "100%", height: "100%" }}>
-      <div style={{ display: "table-cell", verticalAlign: "middle" }}>
-        <div>
-          <div id="header-trigger"></div>
-          <img id="logo" src={logo} style={styles.logo} />
-          <hr style={styles.hr} />
-          <h1 id="strapline" style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
+  <section id="header-section" style={styles.sectionLong}>
+    <section id="header-pin" className="cover" style={styles.section}>
+      <div style={{ display: "table", width: "100%", height: "100%" }}>
+        <div style={{ display: "table-cell", verticalAlign: "middle" }}>
+          <div>
+            <img id="logo" src={logo} style={styles.logo} />
+            <hr style={styles.hr} />
+            <h1 id="strapline" style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
 
 var styles = {};
@@ -30,6 +31,10 @@ styles.section = {
   'MozBackgroundSize': 'cover',
   'OBackgroundSize': 'cover',
   'BackgroundSize': 'cover'
+}
+
+styles.sectionLong = {
+  height: '200vh'
 }
 
 styles.h1 = {

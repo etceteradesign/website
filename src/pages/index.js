@@ -28,14 +28,15 @@ class IndexPage extends React.Component{
     var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#header-trigger", duration: 300})
+    var scene = new ScrollMagic.Scene({triggerHook: 0, triggerElement: "#header-section", duration: document.documentElement.clientHeight})
             .setTween(tween)
+            .setPin("#header-pin", {pushFollowers: true})
             .addIndicators()
             .addTo(controller);
   }
 
   render(){
-    return (<div>
+    return (<div id="pin-container">
       <HeaderShelf />
       <WorkShelf />
       <ServicesShelf />

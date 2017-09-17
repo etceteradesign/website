@@ -12,7 +12,7 @@ const HeaderShelf = () =>
         <div>
           <img src={logo} style={styles.logo} />
           <hr style={styles.hr} />
-          <h1 style={styles.h1}>Freelance design work<br />by Stephanie Slater</h1>
+          <h1 style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
         </div>
       </div>
     </div>

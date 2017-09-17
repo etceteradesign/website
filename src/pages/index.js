@@ -25,10 +25,16 @@ class IndexPage extends React.Component{
   componentDidMount(){
     const controller = new ScrollMagic.Controller();
 
-    var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
+    // var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
+
+    var tween = new TimelineMax();
+    tween.add([
+      TweenMax.to("#logo-strapline", 1, {y: -100, ease: Linear.easeNone}),
+      TweenMax.to("#logo-strapline", 1, {opacity: 0, ease: Linear.easeNone})
+      ]);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerHook: 0, triggerElement: "#header-section", duration: document.documentElement.clientHeight})
+    var scene = new ScrollMagic.Scene({triggerHook: 0, triggerElement: "#header-section", duration: document.documentElement.clientHeight / 2})
             .setTween(tween)
             .setPin("#header-pin", {pushFollowers: true})
             .addIndicators()

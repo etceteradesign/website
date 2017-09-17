@@ -10,7 +10,7 @@ const HeaderShelf = () =>
     <section id="header-pin" className="cover" style={styles.section}>
       <div style={{ display: "table", width: "100%", height: "100%" }}>
         <div style={{ display: "table-cell", verticalAlign: "middle" }}>
-          <div>
+          <div id="logo-strapline">
             <img id="logo" src={logo} style={styles.logo} />
             <hr style={styles.hr} />
             <h1 id="strapline" style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
@@ -34,7 +34,7 @@ styles.section = {
 }
 
 styles.sectionLong = {
-  height: '200vh'
+  height: '150vh'
 }
 
 styles.h1 = {

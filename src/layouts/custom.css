@@ -11,10 +11,10 @@ html{
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
+*/
 body{
   overflow-x: hidden;
 }
-*/
 
 section {
     position: relative;

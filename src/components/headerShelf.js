@@ -36,7 +36,11 @@ styles.h1 = {
   textAlign: 'center',
   fontFamily: 'Apercu-Regular',
   fontSize: '4.5vh',
-  letterSpacing: '0.05em'
+  letterSpacing: '0.05em',
+  lineHeight: '1.3em',
+  "@media only screen and (max-width : 480px)": {
+    letterSpacing: 0
+  }
 }
 
 styles.logo = {

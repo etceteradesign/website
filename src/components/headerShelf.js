@@ -10,9 +10,10 @@ const HeaderShelf = () =>
     <div style={{ display: "table", width: "100%", height: "100%" }}>
       <div style={{ display: "table-cell", verticalAlign: "middle" }}>
         <div>
-          <img src={logo} style={styles.logo} />
+          <div id="header-trigger"></div>
+          <img id="logo" src={logo} style={styles.logo} />
           <hr style={styles.hr} />
-          <h1 style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
+          <h1 id="strapline" style={styles.h1}>Freelance design<br />by Stephanie Slater</h1>
         </div>
       </div>
     </div>

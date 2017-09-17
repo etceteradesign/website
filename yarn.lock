@@ -2851,6 +2851,10 @@ gray-matter@^2.1.0:
     js-yaml "^3.8.1"
     toml "^2.3.2"
 
+gsap@^1.20.2:
+  version "1.20.2"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-1.20.2.tgz#c78abd906c32ee21964c1b90f921b5110180c65a"
+
 h2o2@4.x.x:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/h2o2/-/h2o2-4.0.2.tgz#87cb960dc0f5b495964fa928253e6cf13ba22486"

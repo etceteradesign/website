@@ -10,6 +10,7 @@
     "gatsby": "^1.6.5",
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-react-helmet": "^1.0.1",
+    "gsap": "^1.20.2",
     "radium": "^0.19.4",
     "react-reveal": "^0.1.1",
     "scrollmagic": "^2.0.5"
@@ -28,5 +29,18 @@
   },
   "devDependencies": {
     "prettier": "^1.5.2"
+  },
+  "overrides": {
+    "gsap": {
+      "main": [
+        "./src/uncompressed/TweenMax.js"
+      ]
+    },
+    "scrollmagic": {
+      "main": [
+        "./scrollmagic/uncompressed/ScrollMagic.js",
+        "./scrollmagic/uncompressed/plugins/animation.gsap.js"
+      ]
+    }
   }
 }

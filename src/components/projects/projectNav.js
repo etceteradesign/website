@@ -42,18 +42,21 @@ styles.projectNavContainer = {
 
 styles.ul = {
   listStyle: 'none',
-  textAlign: 'center'
+  textAlign: 'center',
+  margin: "0 auto",
+  width: "100%",
+  maxWidth: "500px",
 }
 
 styles.li = {
   display: 'inline-block',
-  width: '120px',
+  width: '25%',
   margin: '0 1%'
 }
 
 styles.a = {
   display: 'inline-block',
-  width: '120px',
+  width: '100%',
   height: '50px',
   paddingTop: '15px',
   fontFamily: 'Apercu-Light',

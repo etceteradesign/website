@@ -16,7 +16,7 @@ import mercury1 from '../assets/work/mercury1.jpg';
 
 const WorkShelf = () =>
   <section className="diagonal clockwise" style={styles.section}>
-    <h2 style={sharedStyles.sectionHeading}>Some Of My Work</h2>
+    <h2 style={Object.assign({}, sharedStyles.sectionHeading, {marginBottom: "2em"})}>Some Of My Work</h2>
 
     <div className="container-fluid" style={styles.container}>
       <div className="row no-gutters">

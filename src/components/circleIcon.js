@@ -44,7 +44,7 @@ styles.description = {
   textAlign: "center",
   fontSize: "20px",
   "@media only screen and (max-width : 480px)": {
-    fontSize: "15px"
+    fontSize: "13px"
   }
 }
 

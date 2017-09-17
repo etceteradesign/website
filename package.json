@@ -11,7 +11,8 @@
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-react-helmet": "^1.0.1",
     "radium": "^0.19.4",
-    "react-reveal": "^0.1.1"
+    "react-reveal": "^0.1.1",
+    "scrollmagic": "^2.0.5"
   },
   "keywords": [
     "gatsby"

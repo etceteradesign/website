@@ -34,7 +34,7 @@ styles.section = {
 }
 
 styles.sectionLong = {
-  height: '150vh'
+  height: '120vh'
 }
 
 styles.h1 = {

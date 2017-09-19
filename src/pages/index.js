@@ -39,6 +39,7 @@ class IndexPage extends React.Component{
             .setPin("#header-pin", {pushFollowers: true})
             .addIndicators()
             .addTo(controller);
+
   }
 
   render(){

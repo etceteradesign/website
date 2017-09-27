@@ -8,6 +8,8 @@ import twitter from '../assets/footer-icons/twitter-icon.png';
 import instagram from '../assets/footer-icons/instagram-icon.png';
 import pinterest from '../assets/footer-icons/pinterest-icon.png';
 
+import Circle from './decorations/circle';
+
 const FooterShelf = () => 
   <section className="diagonal clockwise" style={styles.section}>
 
@@ -20,6 +22,7 @@ const FooterShelf = () =>
       <p style={styles.p}>Copyright 2017 &copy; etcetera.design</p>
     </div>
 
+    <Circle style={{position: "absolute", top: "-15vh", left: "10vh", zIndex: 100}} diameter="15" colour="#a9e5bb" />
   </section>
 
 var styles = {};

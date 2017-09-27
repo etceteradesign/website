@@ -37,7 +37,7 @@ class IndexPage extends React.Component{
     var scene = new ScrollMagic.Scene({triggerHook: 0, triggerElement: "#header-section", duration: document.documentElement.clientHeight / 2})
             .setTween(tween)
             .setPin("#header-pin", {pushFollowers: true})
-            .addIndicators()
+            // .addIndicators()
             .addTo(controller);
 
   }

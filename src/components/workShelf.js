@@ -61,7 +61,7 @@ class WorkShelf extends React.Component {
     var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
             .setTween(tweenWorkProjects)
             // .setPin("#header-pin", {pushFollowers: true})
-            .addIndicators()
+            // .addIndicators()
             .addTo(controller);
             
 

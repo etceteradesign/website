@@ -14,6 +14,10 @@ import jamie1 from '../assets/work/jamie1.jpg';
 import festivalofyou1 from '../assets/work/festivalofyou1.jpg';
 import mercury1 from '../assets/work/mercury1.jpg';
 
+import DottedCircle from './decorations/dottedCircle';
+import Circle from './decorations/circle';
+import Triangle from './decorations/triangle';
+
 class WorkShelf extends React.Component {
 
   componentDidMount(){
@@ -103,10 +107,13 @@ class WorkShelf extends React.Component {
           <div id="project5" className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
           <div id="project6" className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
         </div>
+        <Circle style={{position: "absolute", top: "-15vh", right: "-3vh"}} diameter="10" colour="#3a86ff" />
+        <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />
       </div>
 
       <div style={styles.projectsLink}><Link className="specialHeading" to="/projects/">See all projects</Link></div>
 
+      <DottedCircle style={{width: "25vh", height: "25vh", position: "absolute", top: "-10vh", right: "5vh"}} />
 
     </section>);
   }
@@ -116,7 +123,8 @@ class WorkShelf extends React.Component {
 var styles = {};
 
 styles.section = {
-  background: "white"
+  background: "white",
+  position: "relative"
 }
 
 styles.container = {
@@ -168,6 +176,7 @@ styles.p = {
 }
 
 styles.projectsContainer = {
+  position: "relative"
 
 }
 

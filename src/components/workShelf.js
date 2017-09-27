@@ -32,7 +32,7 @@ class WorkShelf extends React.Component {
       TweenMax.to("#featured-image", 1, {opacity: 1, ease: Linear.easeNone})
       ]);
 
-    var scene = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#work-section", duration: 200})
+    var scene = new ScrollMagic.Scene({triggerHook: 0.5, triggerElement: "#work-section", duration: 200})
             .setTween(tween)
             // .setPin("#header-pin", {pushFollowers: true})
             .addIndicators()
@@ -40,16 +40,30 @@ class WorkShelf extends React.Component {
 
     const tween2 = new TimelineMax();
 
-    tween.add([
+    tween2.add([
       TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
       TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
       ]);
 
     var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
-            .setTween(tween)
+            .setTween(tween2)
             // .setPin("#header-pin", {pushFollowers: true})
             .addIndicators()
             .addTo(controller);
+
+    const tweenWorkProjects = new TimelineMax();
+
+    tweenWorkProjects.add([
+      TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
+      TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
+      ]);
+
+    var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
+            .setTween(tweenWorkProjects)
+            // .setPin("#header-pin", {pushFollowers: true})
+            .addIndicators()
+            .addTo(controller);
+            
 
   }
 
@@ -76,15 +90,15 @@ class WorkShelf extends React.Component {
 
       <div className="container-fluid" style={styles.projectsContainer}>
         <div className="row">
-          <div className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
-          <div className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
+          <div id="project1" className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+          <div id="project2" className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+          <div id="project3" className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
           <div className="clearfix visible-sm-block visible-md-block"></div>
-          <div className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
+          <div id="project4" className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
-          <div className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+          <div id="project5" className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
+          <div id="project6" className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
         </div>
       </div>
 

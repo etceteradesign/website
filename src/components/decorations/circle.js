@@ -18,7 +18,7 @@ class Circle extends React.Component{
     return (
       <div style={styles}>
         <svg width={svgWidth} height={svgWidth}>
-          <circle cx={svgWidth / 2} cy={svgWidth / 2} r={pixelRadius} stroke={this.props.colour} strokeWidth={pixelRadius / 5} fill="none" />
+          <circle cx={svgWidth / 2} cy={svgWidth / 2} r={pixelRadius} stroke={this.props.colour} strokeWidth={pixelRadius / 7} fill="none" />
         </svg>
       </div>
       );

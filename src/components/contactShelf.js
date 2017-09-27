@@ -28,7 +28,7 @@ const ContactShelf = () =>
     </div>
 
     <DottedCircle style={{width: "30vh", height: "30vh", position: "absolute", top: "-15vh", left: "-15vh"}} /> 
-    <Triangle style={{position: "absolute", bottom: "20vh", right: "-8vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="-45" />
+    <Triangle style={{position: "absolute", bottom: "20vh", right: "-8vh", zIndex: -1}} width="18" height="22" colour="#fdc523" rotate="-45" />
 
 
   </section>

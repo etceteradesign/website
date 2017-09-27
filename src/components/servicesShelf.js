@@ -13,6 +13,10 @@ import presentation from '../assets/services-icons/presentation-icon.png';
 import print from '../assets/services-icons/print-icon.png';
 import web from '../assets/services-icons/web-icon.png';
 
+import DottedCircle from './decorations/dottedCircle';
+import Circle from './decorations/circle';
+import Triangle from './decorations/triangle';
+
 const circleColour = "#f5f6f7";
 
 const ServicesShelf = () => 
@@ -32,13 +36,21 @@ const ServicesShelf = () =>
       </div>
     </div>
 
+    <DottedCircle style={{width: "15vh", height: "15vh", position: "absolute", top: "-10vh", right: "10vh"}} />
+    <Circle style={{position: "absolute", top: "-2vh", right: "5vh"}} diameter="7" colour="#fdc523" />
+    <Triangle style={{position: "absolute", top: "20vh", left: "0vh", zIndex: -1}} width="12" height="15" colour="#3a86ff" rotate="45" />
+    <Circle style={{position: "absolute", top: "37vh", left: "-1vh"}} diameter="7" colour="#fdc523" />
+
+    <Triangle style={{position: "absolute", bottom: "20vh", right: "-8vh", zIndex: -1}} width="12" height="15" colour="#3a86ff" rotate="-45" />
+
   </section>
 
 var styles = {};
 
 styles.section = {
   background: colours.backgroundGrey,
-  paddingBottom: "10%"
+  paddingBottom: "10%",
+  position: "relative"
 }
 
 export default ServicesShelf

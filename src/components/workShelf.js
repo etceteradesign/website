@@ -2,11 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Radium from 'radium';
 
-const ScrollMagic = require('ScrollMagic');
-require('animation.gsap');
-require('debug.addIndicators');
-const TimelineMax = require('TimelineMax');
-
 import sharedStyles from '../shared/sharedStyles';
 
 import ProjectScreenshot from './projectScreenshot';
@@ -23,46 +18,54 @@ class WorkShelf extends React.Component {
 
   componentDidMount(){
 
-    const controller = new ScrollMagic.Controller();
+    if(typeof window !== "undefined"){
 
-    const tween = new TimelineMax();
+      const ScrollMagic = require('ScrollMagic');
+      typeof window !== 'undefined' && require('animation.gsap');
+      // require('debug.addIndicators');
+      const TimelineMax = require('TimelineMax');
 
-    tween.add([
-      TweenMax.to("#featured-image", 1, {x: 100, ease: Linear.easeNone}),
-      TweenMax.to("#featured-image", 1, {opacity: 1, ease: Linear.easeNone})
-      ]);
+      const controller = new ScrollMagic.Controller();
 
-    var scene = new ScrollMagic.Scene({triggerHook: 0.5, triggerElement: "#work-section", duration: 200})
-            .setTween(tween)
-            // .setPin("#header-pin", {pushFollowers: true})
-            .addIndicators()
-            .addTo(controller);
+      const tween = new TimelineMax();
 
-    const tween2 = new TimelineMax();
+      tween.add([
+        TweenMax.to("#featured-image", 1, {x: 100, ease: Linear.easeNone}),
+        TweenMax.to("#featured-image", 1, {opacity: 1, ease: Linear.easeNone})
+        ]);
 
-    tween2.add([
-      TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
-      TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
-      ]);
+      var scene = new ScrollMagic.Scene({triggerHook: 0.5, triggerElement: "#work-section", duration: 200})
+              .setTween(tween)
+              // .setPin("#header-pin", {pushFollowers: true})
+              // .addIndicators()
+              .addTo(controller);
 
-    var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
-            .setTween(tween2)
-            // .setPin("#header-pin", {pushFollowers: true})
-            .addIndicators()
-            .addTo(controller);
+      const tween2 = new TimelineMax();
 
-    const tweenWorkProjects = new TimelineMax();
+      tween2.add([
+        TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
+        TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
+        ]);
 
-    tweenWorkProjects.add([
-      TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
-      TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
-      ]);
+      var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
+              .setTween(tween2)
+              // .setPin("#header-pin", {pushFollowers: true})
+              // .addIndicators()
+              .addTo(controller);
 
-    var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
-            .setTween(tweenWorkProjects)
-            // .setPin("#header-pin", {pushFollowers: true})
-            // .addIndicators()
-            .addTo(controller);
+      const tweenWorkProjects = new TimelineMax();
+
+      tweenWorkProjects.add([
+        TweenMax.to("#featured-info", 1, {y: 100, ease: Linear.easeNone}),
+        TweenMax.to("#featured-info", 1, {opacity: 1, ease: Linear.easeNone})
+        ]);
+
+      var scene = new ScrollMagic.Scene({triggerHook: 0.4, triggerElement: "#work-section", duration: 200})
+              .setTween(tweenWorkProjects)
+              // .setPin("#header-pin", {pushFollowers: true})
+              // .addIndicators()
+              .addTo(controller);
+    }
             
 
   }

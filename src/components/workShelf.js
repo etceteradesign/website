@@ -6,6 +6,8 @@ import sharedStyles from '../shared/sharedStyles';
 
 import ProjectScreenshot from './projectScreenshot';
 
+import SectionHeading from "./sectionHeading";
+
 import reebok1 from '../assets/work/reebok1.jpg';
 import buffalo1 from '../assets/work/buffalo7-1.png';
 import federal1 from '../assets/work/tigersdrawer1.jpg';
@@ -77,7 +79,7 @@ class WorkShelf extends React.Component {
   render(){
 
     return (<section id="work-section" className="diagonal clockwise" style={styles.section}>
-      <h2 style={Object.assign({}, sharedStyles.sectionHeading, {marginBottom: "2em"})}>Some Of My Work</h2>
+      <SectionHeading title="Some Of My Work" smallText="Have a look at" />
 
       <div className="container-fluid" style={styles.container}>
         <div className="row no-gutters">
@@ -126,7 +128,7 @@ styles.section = {
 }
 
 styles.container = {
-  marginTop: "7%",
+  marginTop: "3%",
   padding: 0,
   marginBottom: "7%"
 }

@@ -6,6 +6,8 @@ import CircleIcon from './circleIcon';
 import sharedStyles from '../shared/sharedStyles';
 import colours from '../shared/colours';
 
+import SectionHeading from "./sectionHeading";
+
 import app from '../assets/services-icons/app-icon.png';
 import dev from '../assets/services-icons/dev-icon.png';
 import logo from '../assets/services-icons/logo-icon.png';
@@ -21,7 +23,7 @@ const circleColour = "#f5f6f7";
 
 const ServicesShelf = () => 
   <section className="diagonal anticlockwise" style={styles.section}>
-    <h2 style={sharedStyles.sectionHeading}>My Services?</h2>
+    <SectionHeading title="My Services?" smallText="What are" />
     <div className="container">
       <div className="row">
         <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={web} description="Web design" /></div>

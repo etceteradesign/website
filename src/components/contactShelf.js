@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 import sharedStyles from '../shared/sharedStyles';
 import colours from '../shared/colours';
+import SectionHeading from "./sectionHeading";
 
 import CircleIcon from './circleIcon';
 
@@ -16,7 +17,7 @@ import Triangle from './decorations/triangle';
 
 const ContactShelf = () => 
   <section className="diagonal anticlockwise" style={styles.section}>
-    <h2 style={Object.assign({}, sharedStyles.sectionHeading, {color: "white"})}>Have A Chat?</h2>
+    <SectionHeading style={{color: "white"}} title="Have A Chat?" smallText="Want to" />
     <div className="container">
       <div className="row text-center">
         <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={email} circleColour="#7FB9FF" textColor="white" description="steph@etcetera.design" /></div>

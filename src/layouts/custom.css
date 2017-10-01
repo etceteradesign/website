@@ -32,7 +32,7 @@ section:before {
     left: -25%;
     z-index: -1;
     width: 150%;
-    height: 75%;
+    height: 95%;
     background: inherit;
 }
 .diagonal.anticlockwise:before{

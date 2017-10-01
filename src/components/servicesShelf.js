@@ -26,15 +26,15 @@ const ServicesShelf = () =>
     <SectionHeading title="My Services?" smallText="What are" />
     <div className="container">
       <div className="row">
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={web} description="Web design" /></div>
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={print} description="Print & Brochure design" /></div>
-        <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={logo} description="Logos & branding" /></div>
-        <div className="clearfix visible-sm-block visible-md-block"></div>
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={app} description="App design" /></div>
-        <div className="clearfix visible-xs-block"></div>
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={presentation} description="Presentation design" /></div>
-        <div className="col-xs-6 col-sm-4"><CircleIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={web} description="Web design" /></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={print} description="Print & Brochure design" /></div>
+        <div style={styles.col} className="clearfix visible-xs-block"></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={logo} description="Logos & branding" /></div>
+        <div style={styles.col} className="clearfix visible-sm-block visible-md-block"></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={app} description="App design" /></div>
+        <div style={styles.col} className="clearfix visible-xs-block"></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={presentation} description="Presentation design" /></div>
+        <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={dev} description="Arrangement of printing and web/app development" /></div>
       </div>
     </div>
 
@@ -52,6 +52,11 @@ styles.section = {
   background: colours.backgroundGrey,
   paddingBottom: "10%",
   position: "relative"
+}
+
+styles.col = {
+  paddingLeft: 0,
+  paddingRight: 0
 }
 
 export default ServicesShelf

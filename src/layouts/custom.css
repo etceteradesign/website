@@ -105,11 +105,11 @@ a.specialHeading:hover:before{
 .container{
   max-width: 750px;
 }
-
+/*
 .col-sm-4, .col-xs-6{
   padding-left: 0;
   padding-right: 0;
-}
+}*/
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =

@@ -107,8 +107,8 @@ a.specialHeading:hover:before{
 }
 
 .col-sm-4, .col-xs-6{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*==================================================

@@ -10,20 +10,35 @@ import pinterest from '../assets/footer-icons/pinterest-icon.png';
 
 import Circle from './decorations/circle';
 
-const FooterShelf = () => 
-  <section className="diagonal clockwise" style={styles.section}>
+class FooterShelf extends React.Component{
 
-    <div style={styles.footer}>
-      <ul style={styles.ul}>
-        <li style={styles.li}><a style={styles.a} href="https://twitter.com/_etceteradesign"><img src={twitter} /></a></li>
-        <li style={styles.li}><a style={styles.a} href="#"><img src={instagram} /></a></li>
-        <li style={styles.li}><a style={styles.a} href="#"><img src={pinterest} /></a></li>
-      </ul>
-      <p style={styles.p}>Copyright 2017 &copy; etcetera.design</p>
-    </div>
+  render(){
 
-    <Circle style={{position: "absolute", top: "-15vh", left: "10vh", zIndex: 100}} diameter="15" colour="#a9e5bb" />
-  </section>
+    let circle = null;
+
+    if(this.props.circle){
+      circle = <Circle style={{position: "absolute", top: "-15vh", left: "10vh", zIndex: 100}} diameter="15" colour="#a9e5bb" />
+    }
+
+    return (
+      <section className="diagonal clockwise" style={styles.section}>
+
+        <div style={styles.footer}>
+          <ul style={styles.ul}>
+            <li style={styles.li}><a style={styles.a} href="https://twitter.com/_etceteradesign"><img src={twitter} /></a></li>
+            <li style={styles.li}><a style={styles.a} href="#"><img src={instagram} /></a></li>
+            <li style={styles.li}><a style={styles.a} href="#"><img src={pinterest} /></a></li>
+          </ul>
+          <p style={styles.p}>Copyright 2017 &copy; etcetera.design</p>
+        </div>
+
+        {circle}
+        
+      </section>
+      );
+  }
+
+}
 
 var styles = {};
 
@@ -39,7 +54,8 @@ styles.footer = {
 
 styles.ul = {
   listStyle: "none",
-  textAlign: "center"
+  textAlign: "center",
+  margin: "0 !important"
 }
 
 styles.li = {

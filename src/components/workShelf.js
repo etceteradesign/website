@@ -91,7 +91,7 @@ class WorkShelf extends React.Component {
           </div>
           <div id="featured-info" className="col-sm-6" style={styles.rightHalf}>
             <Link to="/reebok-project" className="specialHeading" style={{fontSize: "18px"}}>FEATURED: Reebok Showcase</Link>
-            <p style={styles.p}>A presentation designed for a presentation on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century.</p>
+            <p style={styles.p}>A presentation designed for a showcase on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century.</p>
             <p style={styles.p}>Click the link for more images of the project.</p>
           </div>
         </div>
@@ -99,15 +99,15 @@ class WorkShelf extends React.Component {
 
       <div className="container-fluid" style={styles.projectsContainer}>
         <div className="row">
-          <div id="project1" className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
-          <div id="project2" className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
+          <div id="project1" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+          <div id="project2" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project3" className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+          <div id="project3" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
           <div className="clearfix visible-sm-block visible-md-block"></div>
-          <div id="project4" className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
+          <div id="project4" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project5" className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
-          <div id="project6" className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+          <div id="project5" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
+          <div id="project6" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />
@@ -133,7 +133,7 @@ styles.container = {
   marginBottom: "7%"
 }
 
-styles.featureImage = {
+styles.featuredImage = {
   width: "100%",
   position: "relative",
   zIndex: 1
@@ -177,7 +177,11 @@ styles.p = {
 
 styles.projectsContainer = {
   position: "relative"
+}
 
+styles.screenshot = {
+  paddingLeft: "10px",
+  paddingRight: "10px"
 }
 
 export default Radium(WorkShelf);

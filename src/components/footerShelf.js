@@ -55,7 +55,7 @@ styles.footer = {
 styles.ul = {
   listStyle: "none",
   textAlign: "center",
-  margin: "0 !important"
+  marginLeft: "0 !important"
 }
 
 styles.li = {

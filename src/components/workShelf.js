@@ -88,7 +88,7 @@ class WorkShelf extends React.Component {
             </div>
           </div>
           <div id="featured-info" className="col-sm-6" style={styles.rightHalf}>
-            <h4 className="specialHeading">FEATURED: Reebok Showcase</h4>
+            <Link to="/reebok-project" className="specialHeading" style={{fontSize: "18px"}}>FEATURED: Reebok Showcase</Link>
             <p style={styles.p}>A presentation designed for a presentation on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century.</p>
             <p style={styles.p}>Click the link for more images of the project.</p>
           </div>

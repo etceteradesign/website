@@ -10,7 +10,7 @@ import SectionHeading from "./sectionHeading";
 
 import reebok1 from '../assets/work/reebok1.jpg';
 import buffalo1 from '../assets/work/buffalo7-1.png';
-import federal1 from '../assets/work/tigersdrawer1.jpg';
+import federal1 from '../assets/work/federal1.jpg';
 import openmarket1 from '../assets/work/openmarket1.jpg';
 import jamie1 from '../assets/work/jamie1.jpg';
 import festivalofyou1 from '../assets/work/festivalofyou1.jpg';
@@ -99,15 +99,15 @@ class WorkShelf extends React.Component {
 
       <div className="container-fluid" style={styles.projectsContainer}>
         <div className="row">
-          <div id="project1" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
-          <div id="project2" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
+          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+          <div id="project2" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project3" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+          <div id="project3" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
           <div className="clearfix visible-sm-block visible-md-block"></div>
-          <div id="project4" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
+          <div id="project4" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project5" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
-          <div id="project6" style={styles.screenshot} className="col-xs-6 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+          <div id="project5" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
+          <div id="project6" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />

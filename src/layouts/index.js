@@ -19,7 +19,8 @@ const TemplateWrapper = ({ children }) =>
         meta={[
           { name: 'description', content: 'Freelance design by Stephanie Slater' },
           { name: 'keywords', content: 'freelance, design, stephanie, slater, etcetera, manchester, web, print, logo, app' },
-          { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' }
+          { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
+          { name: 'google-site-verification', content: 'buFnXr2SgmLwtjnQJNezh7mEMaEIf1nlpjVOX-3Y76k' }
         ]}
       />
       <div>
@@ -32,4 +33,4 @@ TemplateWrapper.propTypes = {
   children: PropTypes.func,
 }
 
-export default TemplateWrapper
+export default TemplateWrapper;

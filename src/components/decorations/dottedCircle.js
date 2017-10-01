@@ -7,7 +7,7 @@ class DottedCircle extends React.Component{
   render(){
 
     return (
-      <img src={image} style={this.props.style} />
+      <img className="hidden-xs" src={image} style={this.props.style} />
       );
   }
 

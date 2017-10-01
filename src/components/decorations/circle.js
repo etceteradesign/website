@@ -20,7 +20,7 @@ class Circle extends React.Component{
     });
 
     return (
-      <div style={styles}>
+      <div style={styles} className="hidden-xs">
         <svg width={svgWidth} height={svgWidth}>
           <circle cx={svgWidth / 2} cy={svgWidth / 2} r={pixelRadius} stroke={this.props.colour} strokeWidth={pixelRadius / 7} fill="none" />
         </svg>

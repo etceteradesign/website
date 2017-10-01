@@ -35,7 +35,7 @@ class Triangle extends React.Component{
     const transform = `rotate(${this.props.rotate} ${svgWidth / 2} ${svgHeight / 2})`;
 
     return (
-      <div style={styles}>
+      <div className="hidden-xs" style={styles}>
         <svg width={svgWidth} height={svgHeight}>
           <polygon points={points} stroke={this.props.colour} strokeWidth={width / 10} fill="none" transform={transform} />
         </svg>

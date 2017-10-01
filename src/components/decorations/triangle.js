@@ -4,7 +4,11 @@ class Triangle extends React.Component{
 
   render(){
 
-    const vh = window.innerHeight / 100;
+    let vh = 7;
+
+    if(typeof window !== "undefined"){
+      vh = window.innerHeight / 100;
+    }
 
     const width = this.props.width * vh;
     const height = this.props.height * vh;

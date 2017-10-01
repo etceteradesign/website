@@ -4,7 +4,11 @@ class Circle extends React.Component{
 
   render(){
 
-    const vh = window.innerHeight / 100;
+    let vh = 7;
+
+    if(typeof window !== "undefined"){
+      vh = window.innerHeight / 100;
+    }
 
     const pixelDiameter = this.props.diameter * vh;
     const svgWidth = pixelDiameter * 1.3;

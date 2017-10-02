@@ -113,8 +113,6 @@ class WorkShelf extends React.Component {
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />
       </div>
 
-      <div style={styles.projectsLink}><Link className="specialHeading" to="/projects/">See all projects</Link></div>
-
     </section>);
   }
 

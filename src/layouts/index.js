@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children }) =>
   <StyleRoot>
     <div>
       <Helmet
-        title="Etcetera Design"
+        title="Etcetera Design - Freelance Graphic & Website Design Manchester"
         meta={[
           { name: 'description', content: 'Freelance design by Stephanie Slater' },
           { name: 'keywords', content: 'freelance, design, stephanie, slater, etcetera, manchester, web, print, logo, app' },

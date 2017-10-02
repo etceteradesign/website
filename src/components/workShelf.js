@@ -174,7 +174,8 @@ styles.p = {
 }
 
 styles.projectsContainer = {
-  position: "relative"
+  position: "relative",
+  paddingBottom: "8%"
 }
 
 styles.screenshot = {

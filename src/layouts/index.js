@@ -20,7 +20,8 @@ const TemplateWrapper = ({ children }) =>
           { name: 'description', content: 'Freelance design by Stephanie Slater' },
           { name: 'keywords', content: 'freelance, design, stephanie, slater, etcetera, manchester, web, print, logo, app' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
-          { name: 'google-site-verification', content: 'buFnXr2SgmLwtjnQJNezh7mEMaEIf1nlpjVOX-3Y76k' }
+          { name: 'google-site-verification', content: 'buFnXr2SgmLwtjnQJNezh7mEMaEIf1nlpjVOX-3Y76k' },
+          { property: 'og:image', content: 'https://etcetera.design/public/feature-photo.jpg' }
         ]}
       />
       <div>

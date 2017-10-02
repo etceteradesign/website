@@ -17,7 +17,7 @@ class ReebokProject extends React.Component{
       <ProjectPage
         bg={bg}
         heading="Reebok Showcase"
-        description="A presentation designed for an imaginary brief for Reebok on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have causes their subordination in sports, even in the 21st century."
+        description="A presentation designed for an imaginary brief for Reebok on sexism in sport. The concept evolved from the idea of women ‘breaking’ and ‘tearing’ away from previous stereotypes that have caused their subordination in sports, even in the 21st century."
         images={[reebok1, reebok2, reebok3, reebok4]}
         prevPageName='#'
         nextPageName='/buffalo7-infographic' />

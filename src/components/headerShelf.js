@@ -30,7 +30,8 @@ styles.section = {
   'WebkitBackgroundSize': 'cover',
   'MozBackgroundSize': 'cover',
   'OBackgroundSize': 'cover',
-  'BackgroundSize': 'cover'
+  'BackgroundSize': 'cover',
+  width: "100%"
 }
 
 styles.sectionLong = {

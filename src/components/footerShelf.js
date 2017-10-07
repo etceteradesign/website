@@ -30,10 +30,11 @@ class FooterShelf extends React.Component{
             <li style={styles.li}><a style={styles.a} href="#"><img src={pinterest} /></a></li>
           </ul>
           <p style={styles.p}>Copyright 2017 &copy; etcetera.design</p>
+          <p style={styles.pSmall}>Developed by <a href="https://chrisingram.me">Chris Ingram</a></p>
         </div>
 
         {circle}
-        
+
       </section>
       );
   }
@@ -71,7 +72,12 @@ styles.a = {
 styles.p = {
   fontFamily: "RobotoMono-Regular",
   fontSize: "18px",
-  textAlign: "center"
+  textAlign: "center",
+  marginBottom: "10px"
 }
+
+styles.pSmall = Object.assign({}, styles.p, {
+  fontSize: "14px"
+})
 
 export default FooterShelf;

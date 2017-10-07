@@ -26,7 +26,7 @@ class FooterShelf extends React.Component{
         <div style={styles.footer}>
           <ul style={styles.ul}>
             <li style={styles.li}><a style={styles.a} href="https://twitter.com/_etceteradesign"><img src={twitter} /></a></li>
-            <li style={styles.li}><a style={styles.a} href="#"><img src={instagram} /></a></li>
+            <li style={styles.li}><a style={styles.a} href="https://www.instagram.com/_etceteradesign"><img src={instagram} /></a></li>
             <li style={styles.li}><a style={styles.a} href="#"><img src={pinterest} /></a></li>
           </ul>
           <p style={styles.p}>Copyright 2017 &copy; etcetera.design</p>

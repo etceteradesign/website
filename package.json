@@ -9,6 +9,7 @@
     "color": "^2.0.0",
     "gatsby": "^1.6.5",
     "gatsby-link": "^1.6.5",
+    "gatsby-plugin-netlify-cms": "^1.0.5",
     "gatsby-plugin-nprogress": "^1.0.7",
     "gatsby-plugin-react-helmet": "^1.0.1",
     "gatsby-source-filesystem": "^1.5.16",

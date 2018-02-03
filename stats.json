@@ -16,6 +16,10 @@
       "path---jamie-veg-patch-586c7e095e534a3909ec.js",
       "path---jamie-veg-patch-586c7e095e534a3909ec.js.map"
     ],
+    "page-component---src-templates-project-template-js": [
+      "page-component---src-templates-project-template-js-9bd0636177a91d3f1a50.js",
+      "page-component---src-templates-project-template-js-9bd0636177a91d3f1a50.js.map"
+    ],
     "page-component---src-pages-reebok-project-js": [
       "page-component---src-pages-reebok-project-js-19bbff8d160b64bf893c.js",
       "page-component---src-pages-reebok-project-js-19bbff8d160b64bf893c.js.map"
@@ -23,10 +27,6 @@
     "page-component---src-pages-federal-menu-js": [
       "page-component---src-pages-federal-menu-js-669b75b730ce58874ba2.js",
       "page-component---src-pages-federal-menu-js-669b75b730ce58874ba2.js.map"
-    ],
-    "page-component---src-pages-buffalo-7-infographic-js": [
-      "page-component---src-pages-buffalo-7-infographic-js-ccf5969e38d7cbb24604.js",
-      "page-component---src-pages-buffalo-7-infographic-js-ccf5969e38d7cbb24604.js.map"
     ],
     "page-component---src-pages-404-js": [
       "page-component---src-pages-404-js-f68e3df0986f36c07464.js",
@@ -49,16 +49,16 @@
       "commons-479c61e3fd7500ae8194.js.map"
     ],
     "path---buffalo-7-infographic": [
-      "path---buffalo-7-infographic-586c7e095e534a3909ec.js",
-      "path---buffalo-7-infographic-586c7e095e534a3909ec.js.map"
+      "path---buffalo-7-infographic-972359046d584adbd12a.js",
+      "path---buffalo-7-infographic-972359046d584adbd12a.js.map"
     ],
     "path---404-html": [
       "path---404-html-586c7e095e534a3909ec.js",
       "path---404-html-586c7e095e534a3909ec.js.map"
     ],
     "app": [
-      "app-c3e65afa24fe62202081.js",
-      "app-c3e65afa24fe62202081.js.map"
+      "app-529f904a7f5ad0c6a3a7.js",
+      "app-529f904a7f5ad0c6a3a7.js.map"
     ],
     "path---festival-of-you": [
       "path---festival-of-you-586c7e095e534a3909ec.js",

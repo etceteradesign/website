@@ -6,11 +6,19 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     { resolve: `gatsby-plugin-nprogress`,
       options: {
-      // Setting a color is optional.
-      color: `tomato`,
-      // Disable the loading spinner.
-      showSpinner: true,
-    }
-  }
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: true,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "markdown-pages",
+      },
+    },
+    `gatsby-transformer-remark`
   ]
 }

@@ -2,7 +2,7 @@ backend:
   name: github
   branch: master
   repo: etceteradesign/website
-  site_id: dreamy-yonath-2477f1
+  site_domain: dreamy-yonath-2477f1
 
 media_folder: /static/img
 public_folder: /img

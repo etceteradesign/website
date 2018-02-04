@@ -3,8 +3,6 @@ import Link from 'gatsby-link';
 import Radium from 'radium';
 import Color from 'color';
 
-import Reveal from 'react-reveal';
-
 // import * as ScrollMagic from 'ScrollMagic';
 // import gsap from "gsap";
 // import {TweenMax} from "gsap";

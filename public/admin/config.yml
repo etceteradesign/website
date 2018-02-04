@@ -1,0 +1,21 @@
+backend:
+  name: github
+  branch: master
+  repo: etceteradesign/website
+
+media_folder: /static/img
+public_folder: /img
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Next Page Name", name: "nextPageName", widget: "text"}
+      - {label: "Previous Page Name", name: "prevPageName", widget: "text"}

@@ -1,8 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   branch: master
-  repo: etceteradesign/website
-  site_domain: dreamy-yonath-2477f1.netlify.com
+  site_domain: etceteradesign.netlify.com
 
 media_folder: /static/img
 public_folder: /img

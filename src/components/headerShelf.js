@@ -7,7 +7,7 @@ import logo from '../assets/logo.png';
 
 const HeaderShelf = () =>
   <section id="header-section" style={styles.sectionLong}>
-    <section id="header-pin" className="cover" style={styles.section}>
+    <section id="header-pin" className="cover darken-pseudo" style={styles.section}>
       <div style={{ display: "table", width: "100%", height: "100%" }}>
         <div style={{ display: "table-cell", verticalAlign: "middle" }}>
           <div id="logo-strapline">
@@ -24,7 +24,7 @@ var styles = {};
 
 styles.section = {
   height: '100vh',
-  backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),url(' + bg + ')',
+  backgroundImage: 'url(' + bg + ')',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center center',
   'WebkitBackgroundSize': 'cover',

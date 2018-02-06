@@ -54,6 +54,21 @@ section.cover{
   background-size: cover;
 }
 
+.darken-pseudo {
+  position: relative;
+}
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
 .specialHeading {
   font-family: "RobotoMono-Regular";
   margin-bottom: 9%;
@@ -117,12 +132,12 @@ a.specialHeading:hover:before{
 
 /*==========  Mobile First Method  ==========*/
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
 }
@@ -162,12 +177,12 @@ a.specialHeading:hover:before{
   }
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-  
+
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
@@ -245,4 +260,3 @@ a.specialHeading:hover:before{
   font-weight: normal;
   font-style: normal;
 }
-

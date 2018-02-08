@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master 
+  branch: master
   repo: etceteradesign/website
 
 media_folder: /static/img
@@ -17,5 +17,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image 1", name: "image1", widget: "image"}
+      - {label: "Image 2", name: "image2", widget: "image"}
+      - {label: "Image 3", name: "image3", widget: "image"}
+      - {label: "Image 4", name: "image4", widget: "image"}
       - {label: "Next Page Name", name: "nextPageName", widget: "text"}
       - {label: "Previous Page Name", name: "prevPageName", widget: "text"}

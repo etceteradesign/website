@@ -14,14 +14,14 @@ class ProjectTemplate extends React.Component{
     const { markdownRemark } = this.props.data;
     const { frontmatter, html } = markdownRemark;
 
-    let images = [frontmatter.images]
+    // let images = [frontmatter.images]
 
     return (
       <ProjectPage
         bg={frontmatter.headerBG}
         heading={frontmatter.title}
         description={frontmatter.description}
-        images={images}
+        images={[frontmatter.headerBG]}
         prevPageName={frontmatter.prevPageName}
         nextPageName={frontmatter.nextPageName} />
     )
@@ -41,7 +41,6 @@ export const pageQuery = graphql`
         date
         description
         headerBG
-        images
         prevPageName
         nextPageName
       }

@@ -1,7 +1,7 @@
 ---
 path: /buffalo7-infographic
 title: Buffalo7 Infographic
-date: 2018-02-08T00:00:00+00:00
+date: 2018-02-08T21:46:00+00:00
 description: >-
   An infographic designed for Buffalo 7, as featured on their website and
   twitter page.

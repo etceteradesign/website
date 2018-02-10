@@ -110,7 +110,7 @@ class WorkShelf extends React.Component {
       </div>
 
       <div style={styles.projectsContainer}>
-        <div style={styles.projectsFlex}>
+        <div className="projects-flex">
           {
             edges.map(edge => <div className="project-screenshot" key={edge.node.frontmatter.path}><Link to={edge.node.frontmatter.path}><ProjectScreenshot screenshotURL={edge.node.frontmatter.thumbnail} description={edge.node.frontmatter.title} /></Link></div>)
           }
@@ -186,11 +186,11 @@ styles.projectsContainer = {
   paddingBottom: "8%"
 }
 
-styles.projectsFlex = {
-  display: "flex",
-  flexWrap: "wrap",
-  justifyContent: "center"
-}
+// styles.projectsFlex = {
+//   display: "flex",
+//   flexWrap: "wrap",
+//   justifyContent: "center"
+// }
 
 // styles.screenshot = {
 //   display: "inline-block",

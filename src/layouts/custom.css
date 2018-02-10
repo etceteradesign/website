@@ -126,6 +126,12 @@ a.specialHeading:hover:before{
   padding-right: 0;
 }*/
 
+.projects-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .project-screenshot{
   display: inline-block;
   width: 100%;

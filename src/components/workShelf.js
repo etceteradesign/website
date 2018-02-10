@@ -78,6 +78,18 @@ class WorkShelf extends React.Component {
 
   render(){
 
+    const { allMarkdownRemark } = this.props.data;
+    const { edges } = allMarkdownRemark;
+
+    console.log("edges", edges);
+
+    // <div id="project1" style={styles.screenshot}><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+    // <div id="project2" style={styles.screenshot}><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
+    // <div id="project3" style={styles.screenshot}><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+    // <div id="project4" style={styles.screenshot}><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
+    // <div id="project5" style={styles.screenshot}><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
+    // <div id="project6" style={styles.screenshot}><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+
     return (<section id="work-section" className="diagonal clockwise" style={styles.section}>
       <SectionHeading title="Some Of My Work" smallText="Have a look at" />
 
@@ -99,12 +111,9 @@ class WorkShelf extends React.Component {
 
       <div style={styles.projectsContainer}>
         <div style={styles.projectsFlex}>
-          <div id="project1" style={styles.screenshot}><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
-          <div id="project2" style={styles.screenshot}><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
-          <div id="project3" style={styles.screenshot}><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
-          <div id="project4" style={styles.screenshot}><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
-          <div id="project5" style={styles.screenshot}><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
-          <div id="project6" style={styles.screenshot}><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+          {
+            edges.map(edge => <div key={edge.node.frontmatter.path} style={styles.screenshot}><Link to={edge.node.frontmatter.path}><ProjectScreenshot screenshotURL={edge.node.frontmatter.thumbnail} description={edge.node.frontmatter.title} /></Link></div>)
+          }
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />
@@ -114,6 +123,7 @@ class WorkShelf extends React.Component {
   }
 
 }
+
 
 var styles = {};
 

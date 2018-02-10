@@ -58,7 +58,7 @@ class IndexPage extends React.Component{
   render(){
     return (<div id="pin-container">
       <HeaderShelf />
-      <WorkShelf />
+      <WorkShelf data={this.props.data} />
       <ServicesShelf />
       <ContactShelf />
       <FooterShelf circle="true" />
@@ -71,3 +71,22 @@ var styles = {
 }
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query IndexPage {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+            thumbnail
+          }
+        }
+      }
+    }
+  }
+`;

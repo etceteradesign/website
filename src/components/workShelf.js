@@ -112,7 +112,7 @@ class WorkShelf extends React.Component {
       <div style={styles.projectsContainer}>
         <div style={styles.projectsFlex}>
           {
-            edges.map(edge => <div key={edge.node.frontmatter.path} style={styles.screenshot}><Link to={edge.node.frontmatter.path}><ProjectScreenshot screenshotURL={edge.node.frontmatter.thumbnail} description={edge.node.frontmatter.title} /></Link></div>)
+            edges.map(edge => <div className="project-screenshot" key={edge.node.frontmatter.path}><Link to={edge.node.frontmatter.path}><ProjectScreenshot screenshotURL={edge.node.frontmatter.thumbnail} description={edge.node.frontmatter.title} /></Link></div>)
           }
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
@@ -192,12 +192,12 @@ styles.projectsFlex = {
   justifyContent: "center"
 }
 
-styles.screenshot = {
-  display: "inline-block",
-  width: "100%",
-  "@media screen and (min-width: 768px)": {
-    width: "calc(33.3333%)"
-  }
-}
+// styles.screenshot = {
+//   display: "inline-block",
+//   width: "100%",
+//   "@media screen and (min-width: 768px)": {
+//     width: "calc(33.3333%)"
+//   }
+// }
 
 export default Radium(WorkShelf);

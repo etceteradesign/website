@@ -72,7 +72,7 @@ class WorkShelf extends React.Component {
               // .addIndicators()
               .addTo(controller);
     }
-            
+
 
   }
 
@@ -97,17 +97,14 @@ class WorkShelf extends React.Component {
         </div>
       </div>
 
-      <div className="container-fluid" style={styles.projectsContainer}>
-        <div className="row">
-          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
-          <div id="project2" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
-          <div className="clearfix visible-xs-block"></div>
-          <div id="project3" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
-          <div className="clearfix visible-sm-block visible-md-block"></div>
-          <div id="project4" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
-          <div className="clearfix visible-xs-block"></div>
-          <div id="project5" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
-          <div id="project6" style={styles.screenshot} className="col-xs-12 col-sm-4"><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
+      <div style={styles.projectsContainer}>
+        <div style={styles.projectsFlex}>
+          <div id="project1" style={styles.screenshot}><Link to="/buffalo7-infographic"><ProjectScreenshot screenshotURL={buffalo1} description="Buffalo 7" /></Link></div>
+          <div id="project2" style={styles.screenshot}><Link to="/federal-menu"><ProjectScreenshot screenshotURL={federal1} description="Menu Design: Federal Caf&eacute;" /></Link></div>
+          <div id="project3" style={styles.screenshot}><Link to="/open-market-presentation"><ProjectScreenshot screenshotURL={openmarket1} description="Open Market" /></Link></div>
+          <div id="project4" style={styles.screenshot}><Link to="/jamie-veg-patch"><ProjectScreenshot screenshotURL={jamie1} description="Jamie's Veg Patch" /></Link></div>
+          <div id="project5" style={styles.screenshot}><Link to="/festival-of-you"><ProjectScreenshot screenshotURL={festivalofyou1} description="Festival Of You" /></Link></div>
+          <div id="project6" style={styles.screenshot}><Link to="/mercury"><ProjectScreenshot screenshotURL={mercury1} description="Mercury Logistics" /></Link></div>
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />
@@ -174,14 +171,23 @@ styles.p = {
 }
 
 styles.projectsContainer = {
+  width: "100%",
   position: "relative",
   paddingBottom: "8%"
 }
 
+styles.projectsFlex = {
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center"
+}
+
 styles.screenshot = {
-  paddingLeft: "10px",
-  paddingRight: "10px"
+  display: "inline-block",
+  width: "100%",
+  "@media screen and (min-width: 768px)": {
+    width: "calc(33.3333%)"
+  }
 }
 
 export default Radium(WorkShelf);
-

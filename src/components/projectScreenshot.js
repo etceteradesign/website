@@ -28,8 +28,7 @@ class ProjectScreenshot extends React.Component{
 var styles = {};
 
 styles.container = {
-  position: "relative",
-  marginBottom: "5%"
+  position: "relative"
 }
 
 styles.img = {
@@ -38,7 +37,7 @@ styles.img = {
   padding: 0
 }
 
-// TODO: Potentially make cover 200% tall and slide up on hover 
+// TODO: Potentially make cover 200% tall and slide up on hover
 
 styles.cover = {
   position: "absolute",

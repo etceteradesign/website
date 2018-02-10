@@ -1,24 +1,12 @@
 {
   "assetsByChunkName": {
-    "path---federal-menu": [
-      "path---federal-menu-a0e39f21c11f6a62c5ab.js",
-      "path---federal-menu-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-fd44554d423094f25c3d.js",
-      "component---src-pages-index-js-fd44554d423094f25c3d.js.map"
-    ],
-    "path---mercury": [
-      "path---mercury-a0e39f21c11f6a62c5ab.js",
-      "path---mercury-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-pages-index-js-38b5bfe9d080abc98b80.js",
+      "component---src-pages-index-js-38b5bfe9d080abc98b80.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
-    ],
-    "path---jamie-veg-patch": [
-      "path---jamie-veg-patch-a0e39f21c11f6a62c5ab.js",
-      "path---jamie-veg-patch-a0e39f21c11f6a62c5ab.js.map"
     ],
     "cms": [
       "cms-ce032aebe3bda77075dd.js",
@@ -28,49 +16,25 @@
       "build-js-styles.css.map",
       "cms.css.map"
     ],
-    "component---src-pages-jamie-veg-patch-js": [
-      "component---src-pages-jamie-veg-patch-js-c22dd9bb315b2182b91a.js",
-      "component---src-pages-jamie-veg-patch-js-c22dd9bb315b2182b91a.js.map"
-    ],
-    "component---src-pages-festival-of-you-js": [
-      "component---src-pages-festival-of-you-js-9a33a5a2cf0f71a373fb.js",
-      "component---src-pages-festival-of-you-js-9a33a5a2cf0f71a373fb.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3aeaad7f75579a793ffe.js",
-      "component---src-layouts-index-js-3aeaad7f75579a793ffe.js.map"
-    ],
-    "path---reebok-project": [
-      "path---reebok-project-a0e39f21c11f6a62c5ab.js",
-      "path---reebok-project-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-federal-menu-js": [
-      "component---src-pages-federal-menu-js-f68c10dd18f14102031b.js",
-      "component---src-pages-federal-menu-js-f68c10dd18f14102031b.js.map"
+      "component---src-layouts-index-js-5dd28811de6749eb828c.js",
+      "component---src-layouts-index-js-5dd28811de6749eb828c.js.map"
     ],
     "path---index": [
-      "path---index-9de51ab928aa16b6d64d.js",
-      "path---index-9de51ab928aa16b6d64d.js.map"
-    ],
-    "component---src-pages-open-market-presentation-js": [
-      "component---src-pages-open-market-presentation-js-a48e088dcdcbac944fdb.js",
-      "component---src-pages-open-market-presentation-js-a48e088dcdcbac944fdb.js.map"
+      "path---index-093f6a41b0a8005d1ce4.js",
+      "path---index-093f6a41b0a8005d1ce4.js.map"
     ],
     "component---src-templates-project-template-js": [
-      "component---src-templates-project-template-js-fb4b46870d5366033a35.js",
-      "component---src-templates-project-template-js-fb4b46870d5366033a35.js.map"
-    ],
-    "path---open-market-presentation": [
-      "path---open-market-presentation-a0e39f21c11f6a62c5ab.js",
-      "path---open-market-presentation-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-templates-project-template-js-0c2ed69aec99b456f8fb.js",
+      "component---src-templates-project-template-js-0c2ed69aec99b456f8fb.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-a7c124c5b92a1b560f6b.js",
-      "commons-a7c124c5b92a1b560f6b.js.map"
+      "commons-e32beddc6f71dd650b9f.js",
+      "commons-e32beddc6f71dd650b9f.js.map"
     ],
     "path---buffalo-7-infographic": [
       "path---buffalo-7-infographic-f8c77fa80ac38d4bc4b0.js",
@@ -80,23 +44,11 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-mercury-js": [
-      "component---src-pages-mercury-js-15a782bb5e776b35e50d.js",
-      "component---src-pages-mercury-js-15a782bb5e776b35e50d.js.map"
-    ],
-    "component---src-pages-reebok-project-js": [
-      "component---src-pages-reebok-project-js-7f3ad100ae6e8c646c34.js",
-      "component---src-pages-reebok-project-js-7f3ad100ae6e8c646c34.js.map"
-    ],
     "app": [
-      "app-f9a99c199a3cb889bc83.js",
+      "app-16c246311e11494ec09d.js",
       "build-js-styles.css",
-      "app-f9a99c199a3cb889bc83.js.map",
+      "app-16c246311e11494ec09d.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---festival-of-you": [
-      "path---festival-of-you-a0e39f21c11f6a62c5ab.js",
-      "path---festival-of-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",

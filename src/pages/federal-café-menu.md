@@ -7,7 +7,7 @@ description: >-
   end product included bold type and an illustrated approach, with a range of
   artwork being commissioned to represent the drinks on offer.
 thumbnail: /img/sffsuntitled-1.jpg
-headerBG: /img/main image federal.jpg
+headerBG: /img/main-imagefederal.jpg
 images:
   - /img/100194-ols4us-357.jpg
   - /img/bg.jpg

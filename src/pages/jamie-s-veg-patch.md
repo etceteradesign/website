@@ -10,9 +10,9 @@ description: >-
 thumbnail: /img/cover.jpg
 headerBG: /img/layer-3.jpg
 images:
-  - /img/bg2.jpg
-  - /img/gree wn.jpg
   - /img/jamies-mockup-2.jpg
+  - /img/gree wn.jpg
+  - /img/bg2.jpg
 nextPageName: /federal-cafe
 prevPageName: /
 ---

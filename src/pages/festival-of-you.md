@@ -9,7 +9,7 @@ description: >-
   reputation. The event offers customers a 2 day celebration of themselves and a
   chance to improve their confidence through a series of inspirational talks and
   workshops.
-thumbnail: /img/imac 2 copy.jpg
+thumbnail: /img/untitled-1.jpg
 headerBG: /img/street billboard psd mockup 2 rgb.jpg
 images:
   - /img/imac 2 copy.jpg

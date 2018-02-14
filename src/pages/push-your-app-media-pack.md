@@ -8,7 +8,7 @@ headerBG: /img/main-44image.jpg
 images:
   - /img/image03.jpg
   - /img/image02.jpg
-  - /img/untitled-sf4.jpg
+  - /img/screentshot.jpg
 nextPageName: /
 prevPageName: /
 ---

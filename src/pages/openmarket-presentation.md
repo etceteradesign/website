@@ -6,7 +6,7 @@ description: >-
   A powerpoint template designed while working at Buffalo 7. Using OpenMarket’s
   brand guidelines, the result was a diverse and functional template, including
   data visualisation, custom graphics & illustration and animation techniques.
-thumbnail: /img/openmarket-header-bg.jpg
+thumbnail: /img/thumbnail.jpg
 headerBG: /img/openmarket-header-bg.jpg
 images:
   - /img/openmarket1.jpg

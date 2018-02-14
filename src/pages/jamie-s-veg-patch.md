@@ -13,7 +13,7 @@ images:
   - /img/jamies-mockup-2.jpg
   - /img/gree wn.jpg
   - /img/bg2.jpg
-nextPageName: /federal-cafe
-prevPageName: /
+nextPageName: /festival-of-you
+prevPageName: /mercury
 ---
 

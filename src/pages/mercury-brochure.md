@@ -10,7 +10,7 @@ description: >-
 thumbnail: /img/mercury1.jpg
 headerBG: /img/mercury-header-bg.jpg
 images:
-  - /img/mercury1.jpg
+  - /img/magazine-2mockup.jpg
   - /img/mercury2.jpg
   - /img/mercury3.jpg
 nextPageName: /

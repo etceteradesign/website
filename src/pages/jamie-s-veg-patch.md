@@ -1,7 +1,7 @@
 ---
 path: /Jamies-veg-patch
 title: Jamie's Veg Patch
-date: 2018-02-13T12:20:49.075Z
+date: 2018-02-10T15:20:49+00:00
 description: >-
   A handmade approach to the design of an imaginary new Jamie Oliver cookbook.
   The concept intended to encapsulate the authentic and homely nature of the

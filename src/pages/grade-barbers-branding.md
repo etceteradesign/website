@@ -8,6 +8,7 @@ headerBG: /img/mainfsimage.jpg
 images:
   - /img/imagse3.jpg
   - /img/imagesfd2.jpg
+  - /img/grade.jpg
 nextPageName: /
 prevPageName: /
 ---

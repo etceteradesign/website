@@ -1,5 +1,5 @@
 ---
-path: victoria-ingram-blog
+path: /victoria-ingram-blog
 title: Victoria Ingram Blog Branding
 date: 2018-02-14T14:06:30.685Z
 description: >-

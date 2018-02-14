@@ -8,7 +8,7 @@ description: >-
   chefs cooking, using real vegetables and acrylic paints to produce a unique
   print for the cook book and range.
 thumbnail: /img/cover.jpg
-headerBG: /img/layer-3.jpg
+headerBG: /img/cover3.jpg
 images:
   - /img/jamies-mockup-2.jpg
   - /img/gree wn.jpg

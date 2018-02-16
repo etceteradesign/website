@@ -13,7 +13,7 @@ images:
   - /img/magazine-2mockup.jpg
   - /img/mercury2.jpg
   - /img/mercury3.jpg
-nextPageName: /
-prevPageName: /buffalo7-infographic
+nextPageName: /buffalo7-infographic
+prevPageName: /jamies-veg-patch
 ---
 

@@ -13,7 +13,7 @@ images:
   - /img/openmarket2.jpg
   - /img/openmarket3.jpg
   - /img/openmarket4.jpg
-nextPageName: /mercury
-prevPageName: /
+nextPageName: /jamies-veg-patch
+prevPageName: /festival-of-you
 ---
 

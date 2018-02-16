@@ -9,6 +9,7 @@ thumbnail: /img/buffalo7-1-thumb.png
 headerBG: /img/buffalo7-header-bg.jpg
 images:
   - /img/buffalo7-1.jpg
-nextPageName: /federal-menu
-prevPageName: /reebok-project
+nextPageName: /
+prevPageName: /mercury
 ---
+

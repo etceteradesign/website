@@ -17,6 +17,6 @@ images:
   - /img/layer 3.jpg
   - /img/bg.png
 nextPageName: /open-market-presentation
-prevPageName: /
+prevPageName: /victoria-ingram-blog
 ---
 

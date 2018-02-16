@@ -11,7 +11,7 @@ images:
   - /img/image-2.jpg
   - /img/imagesfsq3.jpg
   - /img/untitlhsfed-4.jpg
-nextPageName: /federal
-prevPageName: /
+nextPageName: /federal-cafe
+prevPageName: /festival-of-you
 ---
 

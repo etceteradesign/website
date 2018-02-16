@@ -1,7 +1,7 @@
 ---
 path: /Jamies-veg-patch
 title: Jamie's Veg Patch
-date: 2018-02-10T15:33:49+00:00
+date: 2018-02-10T15:33:49.000Z
 description: >-
   A handmade approach to the design of an imaginary new Jamie Oliver cookbook.
   The concept intended to encapsulate the authentic and homely nature of the
@@ -13,7 +13,7 @@ images:
   - /img/jamies-mockup-2.jpg
   - /img/gree wn.jpg
   - /img/bg2.jpg
-nextPageName: /festival-of-you
-prevPageName: /mercury
+nextPageName: /mercury
+prevPageName: /open-market-presentation
 ---
 

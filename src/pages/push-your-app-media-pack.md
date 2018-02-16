@@ -9,7 +9,7 @@ images:
   - /img/image03.jpg
   - /img/image02.jpg
   - /img/screentshot.jpg
-nextPageName: /
+nextPageName: /federal-cafe
 prevPageName: /
 ---
 

@@ -12,7 +12,7 @@ images:
   - /img/100194-ols4us-357.jpg
   - /img/bg.jpg
   - /img/vector smart object.jpg
-nextPageName: /festival-of-you
-prevPageName: /
+nextPageName: /victoria-ingram-blog
+prevPageName: /federal-cafe
 ---
 

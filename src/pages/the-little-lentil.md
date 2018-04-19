@@ -11,6 +11,6 @@ images:
   - /img/business cards.jpg
   - /img/mug.jpg
 nextPageName: /reebok-project
-prevPageName: /profix
+prevPageName: /human-appeal-report
 ---
 

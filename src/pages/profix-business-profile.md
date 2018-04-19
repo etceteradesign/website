@@ -12,7 +12,7 @@ images:
   - /img/profix sq.jpg
   - /img/sq.jpg
   - /img/image 4 (wider image).jpg
-nextPageName: /reebok-project
+nextPageName: /thelittlelentil
 prevPageName: /grade-barbers
 ---
 

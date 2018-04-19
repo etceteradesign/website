@@ -6,7 +6,7 @@ description: >-
   Brochure design for an executive car maintenance workshop in Qatar. The
   angular design was created using the shape of the logo, and colours used
   according to their branding.
-thumbnail: /img/mockup_horizontala5_brochure_1.png
+thumbnail: /img/thumbnail image profix.png
 headerBG: /img/image 4 (wider image).jpg
 images:
   - /img/profix sq.jpg

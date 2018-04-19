@@ -10,6 +10,6 @@ images:
   - /img/imagesfd2.jpg
   - /img/grade.jpg
 nextPageName: /push-your-app
-prevPageName: /reebok-project
+prevPageName: /profix
 ---
 

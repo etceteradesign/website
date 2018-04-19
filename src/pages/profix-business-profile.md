@@ -12,7 +12,7 @@ images:
   - /img/profix sq.jpg
   - /img/sq.jpg
   - /img/image 4 (wider image).jpg
-nextPageName: /thelittlelentil
+nextPageName: /human-appeal-report
 prevPageName: /grade-barbers
 ---
 

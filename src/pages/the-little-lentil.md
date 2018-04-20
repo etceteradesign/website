@@ -6,7 +6,7 @@ description: >-
   Blog logo and branding design for The Little Lentil, a vegan food and
   lifestyle Instagram page – @the_little_lentil_
 thumbnail: /img/main image little lentil.jpg
-headerBG: /img/main image little lentil.jpg
+headerBG: /img/main-image-little-lentil.jpg
 images:
   - /img/business cards.jpg
   - /img/mug.jpg

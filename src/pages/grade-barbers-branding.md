@@ -6,11 +6,9 @@ description: 'Branding project for a luxury barbers on Deansgate, Manchester.'
 thumbnail: /img/hello.jpg
 headerBG: /img/mainfsimage.jpg
 images:
-  - /img/imagse3.jpg
   - /img/imagesfd2.jpg
+  - /img/imagse3.jpg
   - /img/024.dual macbookpro (3).jpg
-  - null
-  - null
 nextPageName: /push-your-app
 prevPageName: /profix
 ---

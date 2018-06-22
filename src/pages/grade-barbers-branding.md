@@ -11,6 +11,8 @@ images:
   - /img/grade.jpg
   - /img/square template1.jpg
   - /img/square template.jpg
+  - /img/024.dual macbookpro (3).jpg
+  - null
   - null
 nextPageName: /push-your-app
 prevPageName: /profix

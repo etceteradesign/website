@@ -8,9 +8,6 @@ headerBG: /img/mainfsimage.jpg
 images:
   - /img/imagse3.jpg
   - /img/imagesfd2.jpg
-  - /img/grade.jpg
-  - /img/square template1.jpg
-  - /img/square template.jpg
   - /img/024.dual macbookpro (3).jpg
   - null
   - null

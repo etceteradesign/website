@@ -9,6 +9,9 @@ images:
   - /img/imagse3.jpg
   - /img/imagesfd2.jpg
   - /img/grade.jpg
+  - /img/square template1.jpg
+  - /img/square template.jpg
+  - null
 nextPageName: /push-your-app
 prevPageName: /profix
 ---

@@ -10,6 +10,7 @@ headerBG: /img/main-image-lit.jpg
 images:
   - /img/business cards.jpg
   - /img/mug.jpg
+  - /img/iphone mock up.jpg
 nextPageName: /reebok-project
 prevPageName: /human-appeal-report
 ---

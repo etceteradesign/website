@@ -1,2 +1,0 @@
-webpackJsonp([0xc5e5fad9b4848000],{"./node_modules/json-loader/index.js!./.cache/json/buffalo-7-infographic-md.json":function(e,a){e.exports={data:{markdownRemark:{html:"",frontmatter:{path:"/buffalo7-infographic-md",title:"Buffalo7 Infographic",description:"An infographic designed for Buffalo 7, as featured on their website and twitter page. md version",prevPageName:"/reebok-project",nextPageName:"/federal-menu"}}},pathContext:{}}}});
-//# sourceMappingURL=path---buffalo-7-infographic-md-51969eebb1afff5a6dd4.js.map

@@ -1,0 +1,51 @@
+#cover{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#info{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#info h1{
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.4;
+}
+#info h2{
+  text-align: left;
+  font-weight: 300;
+  color: #797979;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+#info p{
+  color: #1D1D1D;
+  max-width: 550px;
+}
+
+#images{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#images .project-image{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#images .project-image-bottom{
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.navbar{
+  background: transparent;
+}
+.navbar.fixed{
+  background: white;
+}

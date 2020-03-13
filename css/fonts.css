@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Italic.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Italic.woff') format('woff'),
+        url('website-fonts/TTCommons-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Black.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Black.woff') format('woff'),
+        url('website-fonts/TTCommons-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-ExtraBold.woff2') format('woff2'),
+        url('website-fonts/TTCommons-ExtraBold.woff') format('woff'),
+        url('website-fonts/TTCommons-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Bold.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Bold.woff') format('woff'),
+        url('website-fonts/TTCommons-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Thin.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Thin.woff') format('woff'),
+        url('website-fonts/TTCommons-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-DemiBold.woff2') format('woff2'),
+        url('website-fonts/TTCommons-DemiBold.woff') format('woff'),
+        url('website-fonts/TTCommons-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Regular.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Regular.woff') format('woff'),
+        url('website-fonts/TTCommons-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Light.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Light.woff') format('woff'),
+        url('website-fonts/TTCommons-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-Medium.woff2') format('woff2'),
+        url('website-fonts/TTCommons-Medium.woff') format('woff'),
+        url('website-fonts/TTCommons-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('website-fonts/TTCommons-ExtraLight.woff2') format('woff2'),
+        url('website-fonts/TTCommons-ExtraLight.woff') format('woff'),
+        url('website-fonts/TTCommons-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}

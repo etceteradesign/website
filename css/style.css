@@ -1,0 +1,328 @@
+body {
+  background-color: white;
+  color: #000000;
+  /* font-family: "TT Commons"; */
+  font-family: "TT Commons", Helvetica, sans-serif;
+  font-weight: 200;
+  overflow-x: hidden;
+}
+
+/* nav {
+  font-size: 100%;
+  font-weight: medium;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+.nav-tabs {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-tabs a{
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* Navbar height */
+.navbar{
+  min-height: 10rem !important;
+  position: absolute !important;
+  width: 100% !important;
+}
+
+.navbar.hidden{
+  position: fixed !important;
+  top: -10rem !important;
+  transition: top 0.2s !important;
+}
+
+.navbar.fixed{
+  top: 0 !important;
+}
+/* Logo */
+.navbar-item img{
+  max-height: 7rem !important;
+}
+.navbar-brand{
+  min-height: 10rem;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+  .navbar-brand.is-active{
+    position: relative;
+    left: 0;
+    transform: none;
+  }
+.navbar-burger{
+  position: absolute;
+  right: 0;
+  height: 10rem;
+  margin-left: 0;
+}
+.navbar-start .navbar-item, .navbar-end .navbar-item{
+  margin: 0 4rem;
+}
+.navbar-item{
+  font-weight: 500;
+  text-align: center;
+}
+.navbar-item:hover{
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-menu{
+  padding: 0;
+}
+
+.button{
+  border-radius: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: calc(0.375em + 1px)
+}
+
+.logo{
+  width: 50%;
+}
+
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/group-waves.svg) no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  /* background-size: auto 30%; */
+}
+  .landing-page .button{
+    position: absolute;
+    bottom: 4em;
+  }
+  @media only screen and (min-width: 768px){
+    .landing-page .button{
+      bottom: 6em;
+    }
+  }
+
+.logofile {
+  width: 110px;
+  margin: 2% auto 0% auto;
+  display: block;
+}
+
+.landing-page h1 {
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.bold-blue {
+  color: #272A7E;
+  font-weight: 500;
+}
+
+/* Services */
+
+#services{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px){
+  #services{
+    padding-top: 17rem;
+    padding-bottom: 17rem;
+  }
+}
+
+#services .container {
+  max-width: 1100px;
+
+}
+
+.service{
+  background: #FAFAFA;
+  padding: 40px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.service .service-icon > img{
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 35px;
+}
+
+.service h3{
+  font-weight: medium;
+  margin-bottom: 0.5em;
+  line-height: 1.3em;
+}
+
+.service p{
+  font-weight: 300;
+}
+
+/* Projects */
+
+#projects{
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+#projects .project-cover{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#projects .sjk{
+  background-image: url(/projects/sjk-photographical/cover-large2.png);
+}
+
+#projects .human-appeal{
+  background-image: url(/projects/human-appeal/green-insta.jpg);
+}
+
+#projects .bungalows{
+  background-image: url(/projects/bungalows/home.jpg);
+}
+#projects .grade{
+  background-image: url(/projects/grade/main.jpg);
+}
+#projects .little-lentil{
+  background-image: url(/projects/little-lentil/cover.jpg);
+}
+#projects .incase{
+  background-image: url(/projects/incase/cover.jpg);
+}
+#projects .reebok{
+  background-image: url(/projects/reebok/main.jpg);
+}
+#projects .team-up{
+  background-image: url(/projects/team-up/three.jpg);
+}
+
+/* Quotes */
+
+#quotes{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background: #FAFAFA;
+}
+
+@media only screen and (min-width: 768px){
+  #quotes{
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.quotes-container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #FAFAFA;
+}
+.quotes-container .bx-wrapper{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border: 0;
+}
+.quotes-container .bx-next, .quotes-container .bx-prev{
+  display: none;
+}
+
+.quotes-container .bx-wrapper .bx-pager.bx-default-pager a{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  background: transparent;
+  border: 1px solid #707070;
+}
+.quotes-container .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #272A7E;
+  border-color: #272A7E;
+}
+
+.quotes-container p.quote{
+  margin: 30px 0;
+  text-align: center;
+  color: #272A7E;
+  line-height: 1.4em;
+  padding: 0 30px;
+}
+.quotes-container p.author{
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Contact */
+
+#contact{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+  #contact{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
+}
+
+#contact p{
+  font-weight: 200;
+  margin-bottom: 0.5em;
+}
+
+#contact a.email{
+  display: inline-block;
+  font-weight: 500;
+  color: #272A7E;
+  text-decoration: none;
+  border-bottom: 3px solid #272A7E;
+  margin-bottom: 1.3em;
+  line-height: 1;
+}
+#contact a.email:hover{
+  opacity: 0.75;
+}
+
+#contact ul{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  max-width: 175px;
+  margin: 0 auto;
+}
+
+#contact ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0 15px;
+}
+#contact ul li a:hover{
+  opacity: 0.75;
+}
+
+#contact ul li img{
+  width: 100%;
+  height: auto;
+}

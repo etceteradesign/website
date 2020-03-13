@@ -1,0 +1,41 @@
+---
+layout: master
+css: /css/project.css
+---
+<section id="cover" style="background-image: url({{ page.cover_image | relative_url }})">
+
+</section>
+
+<section class="section" id="info">
+  <div class="container">
+    <h1 class="is-size-1">{{ page.title }}</h1>
+    <h2 class="is-size-2">{{ page.subtitle }}</h2>
+    <p class="is-size-5">{{ page.description }}</p>
+  </div>
+</section>
+
+<section class="section" id="images">
+
+  <div class="container">
+
+    <div class="columns">
+      <div class="column"><figure class="project-image" style="background-image: url({{ page.image1 }})"></figure></div>
+      <div class="column"><figure class="project-image" style="background-image: url({{ page.image2 }})"></figure></div>
+    </div>
+
+    <div class="columns">
+      <div class="column"><figure class="project-image-bottom" style="background-image: url({{ page.image3 }})"></figure></div>
+    </div>
+
+    {% if page.image4 and page.image5 %}
+
+    <div class="columns">
+      <div class="column"><figure class="project-image" style="background-image: url({{ page.image4 }})"></figure></div>
+      <div class="column"><figure class="project-image" style="background-image: url({{ page.image5 }})"></figure></div>
+    </div>
+
+    {% endif %}
+
+  </div>
+
+</section>

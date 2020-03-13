@@ -1,3 +1,10 @@
-# Etcetera Design
+# webby
 
-Website source for Etcetera Design
+## Development
+```
+$ jekyll serve
+```
+## Build
+```
+$ jekyll build
+
